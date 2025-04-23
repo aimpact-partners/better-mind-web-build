@@ -1,0 +1,64 @@
+.pui-image.pui-image-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pui-image.pui-image-error .content-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.pui-image.pui-image-error .content-error .pui-icon-button {
+  width: 50px;
+  height: 50px;
+}
+.pui-image.pui-image-error .content-error .pui-icon-button svg.pui-icon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.pui-image.pui-image-error .content-error span {
+  font-size: 12px;
+  display: block;
+  text-align: center;
+}
+.pui-image {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+.pui-image.pui-image-error, .pui-image.pui-image-preload {
+  background-color: var(--surface);
+  display: block;
+}
+.pui-image.pui-image-error img, .pui-image.pui-image-preload img {
+  width: 100%;
+  height: 100%;
+}
+.pui-image img {
+  width: 100%;
+  height: 100%;
+}
+.pui-image.cover-image img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.pui-image.contain img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.pui-image.fill img {
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXGVycm9yLnNjc3MiLCJmaWxlOi8vL0M6L3dvcmtzcGFjZS9wdWJsaWMvcHJhZ21hdGUtdWkvc3JjL21vZHVsZXMvZGlzcGxheS9pbWFnZS9zY3NzL21peGlucy9hYnNvbHV0ZS1wb3NpdGlvbi5zY3NzIiwic2Nzc1xcc3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQztFQUNDO0VBQ0E7RUFDQTs7QUFDQTtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBOztBQUNBO0VBQ0M7RUFDQTtFQ2hCSjtFQUNBLEtEZ0JzQztFQ2Z0QyxPRGV5QztFQ2R6QyxRRGM0QztFQ2I1QyxNRGErQztFQUMzQzs7QUFHRjtFQUNDO0VBQ0E7RUFDQTs7QUV6Qko7RUFDQztFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUVDO0VBQ0E7O0FBQ0E7RUFDQztFQUNBOztBQUlGO0VBQ0M7RUFDQTs7QUFFRDtFQUNDO0VBQ0E7O0FBR0Q7RUFDQztFQUNBOztBQUdEO0VBQ0M7RUFDQSIsImZpbGUiOiIifQ== */

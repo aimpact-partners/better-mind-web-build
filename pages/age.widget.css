@@ -1,0 +1,125 @@
+.form-age__container {
+  padding-top: 10rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.form-age__container form {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+.form-age__container form .age-fields__container {
+  display: flex;
+  gap: 1rem;
+}
+.form-age__container form .age-fields__container > * {
+  flex: 1;
+}
+.form-age__container form .pui-button {
+  padding-inline: 4rem;
+}
+.form-age__container form .pui-select .pui-react-select__control,
+.form-age__container form .pui-select .react-select__menu {
+  max-height: 15vh;
+}
+.page__container.page-article-container > aside {
+  margin-top: 5rem;
+  padding-right: 1rem;
+}
+.page__container.page-article-container > aside ul {
+  list-style: none;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+.navbar-header {
+  padding: 0 1rem;
+  border-bottom: 1px solid var(--outline);
+  position: sticky;
+  background: var(--surface);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+  height: 65px;
+}
+.navbar-header .right-section,
+.navbar-header .left-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navbar-header .left-section {
+  height: 100%;
+  position: relative;
+}
+.navbar-header .left-section .hamburger-icon {
+  cursor: pointer;
+}
+.navbar-header .left-section .navbar-logo {
+  height: 50%;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  margin: auto;
+  transition: opacity 0.3s ease-in-out;
+  align-self: center;
+}
+.navbar-header .left-section .navbar-logo:hover {
+  opacity: 0.8;
+}
+.navbar-header .left-section .navbar-logo img {
+  max-height: 100%;
+  object-fit: contain;
+}
+.navbar-header .left-section .pui-breadcrumb {
+  margin-left: 100px;
+}
+.page__container.page-article-container {
+  margin-top: 12rem !important;
+  max-width: 500px !important;
+  display: block;
+  text-align: center;
+  display: grid;
+}
+.page__container.page-article-container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.page__container.page-article-container h2 {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+.page__container.page-article-container p {
+  margin: 1rem 0;
+}
+.page__container.page-article-container .italic {
+  font-style: italic;
+}
+.page__container.page-article-container a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo-layout-page {
+  background: url("/assets/backgrounds/rvd-on-white.webp") no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXGFnZS5zY3NzIiwic2Nzc1xcYXNpZGUuc2NzcyIsInNjc3NcXG1lbnUuc2NzcyIsInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFFQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTs7QUFDQTtFQUNDOztBQUdGO0VBQ0M7O0FBSUE7QUFBQTtFQUVDOztBQzdCSDtFQUNDO0VBQ0E7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7RUFDQTs7QUNSSDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7QUFBQTtFQUVDO0VBQ0E7RUFDQTs7QUFHRDtFQUNDO0VBQ0E7O0FBQ0E7RUFDQzs7QUFFRDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFLQTs7QUFKQTtFQUNDOztBQUtEO0VBQ0M7RUFDQTs7QUFJRjtFQUNDOztBQzdDSDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBR0E7RUFDQztFQUNBO0VBQ0E7O0FBR0Q7RUFDQztFQUNBOztBQUdEO0VBQ0M7O0FBR0Q7RUFDQzs7QUFHRDtFQUNDO0VBQ0E7OztBQUlGO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBIiwiZmlsZSI6IiJ9 */

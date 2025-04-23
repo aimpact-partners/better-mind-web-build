@@ -1,0 +1,291 @@
+.profile-coins__section {
+  border: 1px solid var(--outline);
+  padding: 1rem;
+  border-radius: var(--border-radius-base);
+  display: flex;
+  justify-content: space-between;
+}
+.profile-coins__section .coins-detail__container {
+  display: flex;
+  gap: 1rem;
+}
+.profile-coins__section .coins-detail__container .coins-section__item {
+  display: flex;
+  gap: 0.5rem;
+}
+@media (max-width: 600px) {
+  .profile-coins__section .coins-detail__container {
+    flex-direction: column;
+    gap: 0;
+    text-align: right;
+    align-items: end;
+  }
+}
+.page-container__header .group-code__container {
+  background: var(--surface-variant);
+  padding: 1rem;
+  border-radius: var(--border-radius-base);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  color: var(--primary);
+}
+.page-container__header .group-code__container .code__label {
+  font-size: 0.75rem;
+}
+.page-container__header .group-code__container .code__text {
+  font-size: 1rem;
+}
+.page-container__header .group-code__container .code-content {
+  display: grid;
+}
+.group-entity__icon .pui-icon {
+  height: 3rem;
+  width: 3rem;
+  fill: var(--on-primary);
+}
+.page-container__header {
+  background: var(--primary);
+  padding: 1rem;
+  border-radius: var(--border-radius-base);
+  display: flex;
+  gap: 1rem;
+  color: var(--on-primary);
+}
+.page-container__header .cover-content__container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-grow: 1;
+}
+.page-container__header .pui-icon-button.btn-header__edit-action {
+  height: 2rem;
+  width: 2rem;
+  align-self: center;
+  border-radius: 50%;
+  background: var(--surface-variant);
+}
+.page-container__header .pui-icon-button.btn-header__edit-action .pui-icon {
+  fill: var(--primary);
+}
+.page-container__header .pui-icon-button.copy__button .pui-icon {
+  fill: var(--primary);
+}
+@media (max-width: 600px) {
+  .page-container__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto; /* Two rows: cover + code section */
+  }
+  .page-container__header .group-code__container {
+    grid-column: span 2; /* Spans both columns */
+    display: grid;
+    grid-template-columns: 1fr auto; /* Main content on the left, button on the right */
+    align-items: center; /* Vertically aligns content */
+  }
+  .page-container__header .group-code__container .code-content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+.classroom-form__container .cover-add__container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 0.5rem;
+}
+.classroom-form__container .cover-add__container .cover-image__container {
+  aspect-ratio: 16/9;
+  width: 100%;
+  background: var(--secondary-95);
+  height: auto;
+  position: relative;
+  border-radius: var(--border-radius-base);
+}
+.classroom-form__container .cover-add__container .cover-image__container .pui-image img {
+  width: 100%;
+  height: auto;
+}
+.classroom-form__container .cover-add__container .cover-image__container .actions {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.classroom-form__container .cover-add__container .cover-image__container .actions .upload .pui-icon {
+  width: 1rem;
+  height: 1rem;
+}
+.filters__container {
+  background: var(--surface-neutral);
+  border-radius: var(--border-radius-base);
+  width: 100%;
+}
+.app-organization-creation-page .people-list__container {
+  padding: 0;
+}
+.app-organization-creation-page .people-list__container .person-item__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 2px solid var(--outline);
+  align-items: center;
+}
+.app-organization-creation-page .people-list__container .person-item__container .user-personal-info {
+  display: flex;
+  gap: 1rem;
+  flex-grow: 1;
+  align-items: center;
+}
+.app-organization-creation-page .people-list__container .person-item__container .user-personal-info .pui-image {
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 1/1;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: var(--secondary-light);
+}
+.app-organization-creation-page .people-list__container .person-item__container .user-personal-info .pui-image img {
+  width: 100%;
+  height: 100%;
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-name {
+  display: block;
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-email {
+  font-size: 0.875rem;
+  color: var(--outline);
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-actions {
+  display: flex;
+  justify-items: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  flex-grow: 1;
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-actions .pui-icon-button {
+  width: 2rem;
+  height: 2rem;
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-actions .pui-icon-button.btn-default {
+  background: var(--neutral-90);
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-actions .pui-icon-button svg {
+  width: 0.785rem;
+  height: 0.785rem;
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-actions .select-option {
+  width: 100%;
+  min-width: 200px;
+}
+.app-organization-creation-page .people-list__container .person-item__container .item-actions .div-select__button label {
+  display: none;
+}
+.app-organization-creation-page .people-list__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.app-organization-creation-page .people-list__container ul {
+  padding: 0;
+}
+.app-organization-creation-page .people-list__container .subtitle-list_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pui-button-group .button-group__badge {
+  display: inline-flex;
+  margin-inline: 0.5rem;
+  background: var(--primary-light);
+  padding: 0.25rem 0.5rem;
+  color: var(--on-primary);
+  border-radius: 50%;
+}
+.modal-form .modal-content {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+}
+.modal-form .modal-content .modal-form__header {
+  margin-bottom: 2rem;
+}
+.modal-form .modal-content form {
+  display: grid;
+  gap: 1rem;
+}
+.modal-form .form-actions {
+  margin-top: 2rem;
+  border-top: 1px solid var(--outline);
+  padding: 1rem 0;
+}
+.pui-modal.refine-modal .modal-content,
+.pragmate-modal.refine-modal .modal-content {
+  min-width: 600px;
+  overflow: hidden;
+}
+.pui-modal.refine-modal .modal-content header,
+.pragmate-modal.refine-modal .modal-content header {
+  border-bottom: 1px solid var(--outline);
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+.pui-modal.refine-modal .modal-content textarea,
+.pragmate-modal.refine-modal .modal-content textarea {
+  min-height: 80px;
+}
+.pui-modal.refine-modal .modal-content form,
+.pragmate-modal.refine-modal .modal-content form {
+  display: grid;
+  gap: 1rem;
+}
+
+.pui-modal.personal-modal .modal-content,
+.pragmate-modal.personal-modal .modal-content {
+  min-width: 470px;
+  overflow: hidden;
+  gap: 1rem;
+  display: grid;
+}
+.pui-modal.personal-modal .modal-content .header-text,
+.pragmate-modal.personal-modal .modal-content .header-text {
+  max-width: 400px;
+}
+.pui-modal.personal-modal .modal-content select,
+.pragmate-modal.personal-modal .modal-content select {
+  max-width: 270px;
+  border: 1px solid var(--outline);
+}
+.app-organization-creation-page {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+.app-organization-creation-page .actions-submit__container {
+  text-align: end;
+}
+
+.list-info__container {
+  padding: 1rem;
+}
+.list-info__container .subtitle-list_container {
+  border-bottom: 2px solid var(--text-color);
+  padding-bottom: 5px;
+}
+.list-info__container .subtitle-list_container button {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: var(--text-color);
+}
+.list-info__container .subtitle-list_container button .pui-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXGNvaW5zLnNjc3MiLCJzY3NzXFxoZWFkZXJcXGNvZGUuc2NzcyIsInNjc3NcXGhlYWRlclxcaW1hZ2Uuc2NzcyIsInNjc3NcXGhlYWRlclxcaW5kZXguc2NzcyIsInNjc3NcXGltYWdlLnNjc3MiLCJzY3NzXFxsaXN0XFxmaWx0ZXIuc2NzcyIsInNjc3NcXGxpc3RcXGl0ZW0uc2NzcyIsInNjc3NcXGxpc3RcXGxpc3Quc2NzcyIsInNjc3NcXG1vZGFsLWZvcm0uc2NzcyIsInNjc3NcXG1vZGFscy5zY3NzIiwic2Nzc1xcc3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBOztBQUNBO0VBQ0M7RUFDQTs7QUFJRjtFQUNDO0lBQ0M7SUFDQTtJQUNBO0lBQ0E7OztBQ3BCSDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDOztBQUVEO0VBQ0M7O0FBRUQ7RUFDQzs7QUNiRDtFQUNDO0VBQ0E7RUFDQTs7QUNKRjtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUdEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDOztBQUtEO0VBQ0M7O0FBSUY7RUFoQ0Q7SUFpQ0U7SUFDQTtJQUNBOztFQUNBO0lBQ0M7SUFDQTtJQUNBO0lBQ0E7O0VBQ0E7SUFDQztJQUNBO0lBQ0E7OztBQzNDSDtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTs7QUFFRDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUM7RUFDQztFQUNBOztBQzVCTjtFQUNDO0VBQ0E7RUFDQTs7QUNIRDtFQUNDOztBQUNBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBOztBQUtIO0VBQ0M7O0FBRUQ7RUFDQztFQUNBOztBQUVEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUNBO0VBQ0M7RUFDQTs7QUFDQTtFQUNDOztBQUVEO0VBQ0M7RUFDQTs7QUFHRjtFQUNDO0VBQ0E7O0FBR0E7RUFDQzs7QUM3REw7RUFDQztFQUNBO0VBQ0E7O0FBRUE7RUFDQzs7QUFHRDtFQUNDO0VBQ0E7OztBQUtEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQ3JCRDtFQUNDO0VBQ0E7RUFDQTs7QUFDQTtFQUNDOztBQUVEO0VBQ0M7RUFDQTs7QUFHRjtFQUNDO0VBQ0E7RUFDQTs7QUNkRDtBQUFBO0VBQ0M7RUFDQTs7QUFDQTtBQUFBO0VBQ0M7RUFDQTtFQUNBOztBQUdEO0FBQUE7RUFDQzs7QUFFRDtBQUFBO0VBQ0M7RUFDQTs7O0FBT0Y7QUFBQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0FBQUE7RUFDQzs7QUFHRDtBQUFBO0VBQ0M7RUFDQTs7QUNuQ0g7RUFDQztFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNDOzs7QUFJRjtFQUNDOztBQUNBO0VBQ0M7RUFDQTs7QUFDQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQSIsImZpbGUiOiIifQ== */

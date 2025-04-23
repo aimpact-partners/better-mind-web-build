@@ -1,0 +1,73 @@
+.message-user__label-text {
+  font-weight: 500;
+}
+
+.wall__container {
+  padding: 0;
+}
+
+.message__label-text {
+  overflow: hidden;
+  max-height: 4.3rem;
+  transition: max-height 0.3s ease;
+}
+.message__label-text.expand-false {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.message__label-text.expand-true {
+  max-height: none;
+}
+
+.message-text__container {
+  position: relative;
+}
+.wall__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--surface-dim);
+  padding-inline: 1rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius-base);
+  gap: 1rem;
+}
+.wall__container .title-activity {
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.wall {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  color: var(--on-surface);
+}
+.wall .wall-message__container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.wall .picture__container {
+  display: flex;
+  align-items: flex-start;
+}
+.wall .picture__container img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.wall .wall-actions__container {
+  position: relative;
+}
+.wall:nth-last-child(2) {
+  animation: dash 0.2s;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXG1lc3NhZ2VzLnNjc3MiLCJzY3NzXFxzdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDOzs7QUFHRDtFQUNDOzs7QUFFRDtFQUNDO0VBQ0E7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFHRDtFQUNDOzs7QUFHRjtFQUNDOztBQzFCRDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDQztFQUNBOzs7QUFJRjtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBOztBQUdEO0VBQ0M7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUlGO0VBQ0M7O0FBR0Q7RUFDQyIsImZpbGUiOiIifQ== */

@@ -1,0 +1,85 @@
+.bullet-points-form .bullet-point__actions {
+  gap: 0.25rem;
+}
+.bullet-points-form .bullet-point__actions .pui-icon-button {
+  padding: 0 !important;
+  height: 30px;
+  width: 30px;
+}
+.bullet-points-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  list-style: square;
+}
+.bullet-points-form .bullet-points-form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.bullet-points-form .bullet-point-items__list {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.bullet-points-form .bullet-point-items__list li {
+  width: 100%;
+}
+.bullet-points-form .bullet-points-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+  flex-grow: 1;
+  transition: all 0.3s ease;
+  color: var(--text-color);
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--outline);
+  padding: 0.5rem;
+  background-color: var(--surface);
+}
+.bullet-points-form .bullet-points-item .is-fetching {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+.bullet-points-form .bullet-points-item:has(.bullet-points-input:focus) {
+  border-color: var(--primary);
+}
+.bullet-points-form .bullet-points-item:has(.bullet-points-input:focus) input {
+  color: var(--text-color);
+}
+.bullet-points-form .bullet-points-item .delete-bullet-point {
+  display: block;
+  cursor: pointer;
+}
+.bullet-points-form .bullet-points-item .bullet-point-item__content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.bullet-points-form .bullet-points-item .bullet-point-item__content .bullet-points-input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  height: auto;
+}
+.bullet-points-form .bullet-points-item .bullet-point-item__content span {
+  line-height: 1;
+}
+.bullet-points-form .bullet-points-item .drag-bullet-point {
+  display: block;
+  cursor: grab;
+  fill: var(--color-gray-40);
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXGFjdGlvbnMuc2NzcyIsInNjc3NcXGJ1bGxldC1wb2ludC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7O0FDTEY7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUdEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDOztBQUdGO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBRUE7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTs7QUFHRDtFQUNDOztBQUNBO0VBQ0M7O0FBSUY7RUFDQztFQUNBOztBQUVEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUdEO0VBQ0M7O0FBR0Y7RUFDQztFQUNBO0VBQ0EiLCJmaWxlIjoiIn0= */

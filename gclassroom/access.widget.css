@@ -1,0 +1,42 @@
+.page__container {
+  max-width: 800px;
+  padding: 3rem;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+.page__container.place-center {
+  display: grid;
+  place-items: center;
+}
+.page__container h1 {
+  margin-bottom: 1rem;
+}
+.page__container .card {
+  background: var(--surface);
+  padding: 2rem;
+  border-radius: var(--border-radius-base);
+  text-align: center;
+  min-width: 500px;
+}
+.page__container .card .card__content {
+  margin: auto;
+  max-width: 400px;
+}
+.page__container .card .pui-image {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 137px;
+}
+.page__container .card .actions {
+  margin-top: 2rem;
+}
+.page__container .card .actions button {
+  width: 80%;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDO0VBQ0E7O0FBRUQ7RUFDQzs7QUFFRDtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDQztFQUNBOztBQUdEO0VBQ0M7RUFFQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVEO0VBQ0M7O0FBQ0E7RUFDQyIsImZpbGUiOiIifQ== */

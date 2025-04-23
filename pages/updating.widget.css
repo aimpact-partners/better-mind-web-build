@@ -1,0 +1,21 @@
+.updating__container {
+  margin: auto;
+  display: grid;
+  place-items: center;
+  max-width: 500px;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+}
+.updating__container.is-fetching {
+  opacity: 0.6;
+}
+.updating__container .pui-image {
+  width: 130px;
+  margin-bottom: 2rem;
+}
+.updating__container .pui-button {
+  margin-top: 2rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUNBO0VBQ0M7O0FBRUQ7RUFDQztFQUNBOztBQUdEO0VBQ0MiLCJmaWxlIjoiIn0= */

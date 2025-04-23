@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+}
+
+.header {
+  grid-column: span 2;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.child-2,
+.child-3 {
+  overflow: auto;
+  height: 100%;
+  padding: 1rem;
+}
+
+.child-2 {
+  background-color: #e0f7fa;
+}
+
+.child-3 {
+  background-color: #ffe0b2;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7OztBQUdEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7OztBQUdEO0FBQUE7RUFFQztFQUNBO0VBQ0E7OztBQUdEO0VBQ0M7OztBQUdEO0VBQ0MiLCJmaWxlIjoiIn0= */

@@ -1,0 +1,93 @@
+.pui-modal .modal-content {
+  max-width: 500px;
+  overflow: hidden;
+  text-align: center;
+}
+.pui-modal.modal-sm .modal-content {
+  max-width: 500px;
+}
+.pui-modal .alert.alert--error {
+  margin: 1rem 0;
+}
+.pui-modal .actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 0.5rem;
+}
+
+.pui-modal.pui-alert-dialog .modal-content,
+.pui-modal.pui-alert-dialog.modal-centered .modal-content {
+  text-align: center;
+}
+.pui-modal.pui-alert-dialog .modal-content .pui-modal-actions,
+.pui-modal.pui-alert-dialog .modal-content .actions,
+.pui-modal.pui-alert-dialog.modal-centered .modal-content .pui-modal-actions,
+.pui-modal.pui-alert-dialog.modal-centered .modal-content .actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 1rem;
+}
+.pui-modal.pui-alert-dialog .modal-content .pui-modal-actions .pui-button,
+.pui-modal.pui-alert-dialog .modal-content .actions .pui-button,
+.pui-modal.pui-alert-dialog.modal-centered .modal-content .pui-modal-actions .pui-button,
+.pui-modal.pui-alert-dialog.modal-centered .modal-content .actions .pui-button {
+  width: 50%;
+}
+.notifications-bar {
+  padding: 1.5rem;
+  position: relative;
+}
+.notifications-bar.notification--succes {
+  background: var(--success);
+}
+.notifications-bar.notifications--info {
+  background: var(--info-container);
+  color: var(--on-primary);
+}
+.notifications-bar.notifications--error {
+  background: var(--error);
+  color: var(--on-primary);
+}
+.notifications-bar.notifications--warning {
+  background: var(--warning);
+  color: var(--on-primary);
+}
+.notifications-bar.center-ite ms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notifications-bar .pui-icon.close-icon {
+  fill: var(--on-primary);
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  right: 1rem;
+}
+.main-layout__container {
+  --navbar-height: 79px;
+}
+.main-layout__container main {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem;
+}
+@media (max-width: 768px) {
+  .main-layout__container main {
+    width: 100%;
+    padding: 0rem;
+  }
+}
+.main-layout__container main beyond-layout-children {
+  display: block;
+  flex-grow: 1;
+  min-width: 100%;
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXG1vZGFsLnNjc3MiLCJzY3NzXFxub3RpZmNhdGlvbnMtYmFyLnNjc3MiLCJzY3NzXFxzdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQztFQUNDO0VBQ0E7RUFDQTs7QUFFRDtFQUNDOztBQUVEO0VBQ0M7O0FBRUQ7RUFDQztFQUNBO0VBQ0E7RUFDQTs7O0FBS0Q7QUFBQTtFQUNDOztBQUVBO0FBQUE7QUFBQTtBQUFBO0VBRUM7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7QUFBQTtBQUFBO0FBQUE7RUFDQzs7QUMvQko7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBR0Q7RUFDQztFQUNBOztBQUdEO0VBQ0M7RUFDQTs7QUFHRDtFQUNDO0VBQ0E7O0FBRUQ7RUFDQztFQUNBO0VBQ0E7O0FBR0Q7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FDakNGO0VBQ0M7O0FBRUE7RUFDQztFQUNBO0VBQ0E7RUFFQTs7QUFFQTtFQVBEO0lBUUU7SUFDQTs7O0FBR0Q7RUFDQztFQUVBO0VBQ0E7RUFFQSIsImZpbGUiOiIifQ== */

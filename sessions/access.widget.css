@@ -1,0 +1,40 @@
+.access__class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 4rem;
+}
+.access__class .access-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-around;
+}
+.access__class .acccess__ailogo {
+  width: auto;
+  height: 36px;
+}
+.access__class img {
+  max-width: 500px;
+  aspect-ratio: 15/10;
+}
+@media (max-width: 1368px) {
+  .access__class {
+    flex-direction: column;
+  }
+  .access__class .access-details {
+    align-items: center;
+  }
+  .access__class .access-details p {
+    text-align: center;
+  }
+  .access__class img {
+    width: min(90vw, 400px);
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFRDtFQUNDO0VBQ0E7O0FBRUQ7RUFDQztFQUNBOztBQUdEO0VBeEJEO0lBeUJFOztFQUVBO0lBQ0M7O0VBQ0E7SUFDQzs7RUFHRjtJQUNDIiwiZmlsZSI6IiJ9 */

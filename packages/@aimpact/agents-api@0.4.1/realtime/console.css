@@ -1,0 +1,118 @@
+:host {
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.phone {
+  width: 320px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  text-align: center;
+}
+.phone .caller-info .avatar {
+  width: 80px;
+  height: 80px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 2rem;
+  color: #7f8c8d;
+}
+.phone .caller-info .name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 0.25rem;
+}
+.phone .caller-info .status {
+  font-size: 0.875rem;
+  color: #95a5a6;
+}
+.phone .controls {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+}
+.phone .controls button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: background-color 0.2s;
+}
+.phone .controls button:disabled {
+  cursor: not-allowed;
+  color: #bdc3c7;
+  background: #ecf0f1;
+}
+.phone .controls button.mic-on {
+  background: #e74c3c;
+  color: #fff;
+}
+.phone .controls button.mic-on:hover {
+  background: #c0392b;
+}
+.phone .controls button.mic-off {
+  background: #ecf0f1;
+  color: #7f8c8d;
+}
+.phone .controls button.mic-off:hover {
+  background: #bdc3c7;
+}
+.phone .controls button.call {
+  background: #2ecc71;
+  color: #fff;
+}
+.phone .controls button.call:hover {
+  background: #27ae60;
+}
+.phone .controls button.end-call {
+  background: #e74c3c;
+  color: #fff;
+}
+.phone .controls button.end-call:hover {
+  background: #c0392b;
+}
+.phone .controls button.speaker-on {
+  background: #3498db;
+  color: #fff;
+}
+.phone .controls button.speaker-on:hover {
+  background: #2980b9;
+}
+.phone .controls button.speaker-off {
+  background: #ecf0f1;
+  color: #7f8c8d;
+}
+.phone .controls button.speaker-off:hover {
+  background: #bdc3c7;
+}
+.phone .status-indicator {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+}
+.phone .status-indicator .status-message {
+  font-weight: 500;
+}
+.phone .status-indicator .status-message.muted {
+  color: #e74c3c;
+}
+.phone .status-indicator .status-message.speaker {
+  color: #3498db;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbnNvbGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7O0FBR0Q7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUM7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFRDtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVEO0VBQ0M7RUFDQTs7QUFHRjtFQUNDO0VBQ0E7RUFDQTs7QUFDQTtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7O0FBRUQ7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBR0Y7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBR0Y7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBR0Y7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBR0Y7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBR0Y7RUFDQztFQUNBOztBQUNBO0VBQ0M7O0FBS0o7RUFDQztFQUNBO0VBQ0E7O0FBQ0E7RUFDQzs7QUFDQTtFQUNDOztBQUVEO0VBQ0MiLCJmaWxlIjoiIn0= */

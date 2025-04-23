@@ -1,0 +1,19 @@
+.pui-modal.modal--form .modal-content {
+  min-width: 600px;
+}
+@media (max-width: 1024px) {
+  .pui-modal.modal--form .modal-content {
+    max-width: 85%;
+  }
+}
+@media (max-width: 400px) {
+  .pui-modal.modal--form .modal-content {
+    max-width: 90%;
+  }
+}
+.pui-modal.modal--form .modal-content header h3 {
+  margin-bottom: 2rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXG1vZGFscy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNDO0VBQ0M7O0FBQ0E7RUFGRDtJQUdFOzs7QUFFRDtFQUxEO0lBTUU7OztBQUdBO0VBQ0MiLCJmaWxlIjoiIn0= */

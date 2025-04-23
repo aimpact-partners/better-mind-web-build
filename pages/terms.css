@@ -1,0 +1,22 @@
+.container-page-content {
+  width: 100%;
+  margin: auto;
+  padding-top: 3rem;
+  max-width: 800px;
+}
+.container-page-content h3,
+.container-page-content h2,
+.container-page-content h1 {
+  position: sticky;
+  top: 0rem;
+  background: var(--surface);
+  padding: 1rem 0;
+}
+@media (max-width: 1200px) {
+  .container-page-content {
+    padding: 2rem;
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7QUFBQTtBQUFBO0VBR0M7RUFDQTtFQUNBO0VBQ0E7O0FBRUQ7RUFkRDtJQWVFIiwiZmlsZSI6IiJ9 */

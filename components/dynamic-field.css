@@ -1,0 +1,26 @@
+.dynamic-form__container {
+  display: grid;
+  gap: 1rem;
+}
+.dynamic-form__container .dynamic-field__label {
+  display: flex;
+  justify-content: space-between;
+}
+.dynamic-form__container .dynamic-form__field {
+  border-radius: var(--border-radius-sm);
+  background: var(--surface);
+  padding: 1rem;
+  display: grid;
+  border: 1px solid var(--neutral-70);
+  transition: background 200ms ease-in;
+}
+.dynamic-form__container .dynamic-form__field:focus, .dynamic-form__container .dynamic-form__field:hover {
+  background: var(--surface-variant);
+}
+.dynamic-form__container .dynamic-form__field .pui-textarea,
+.dynamic-form__container .dynamic-form__field .pui-input {
+  background: var(--surface);
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7O0FBR0Q7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFFQzs7QUFHRDtBQUFBO0VBRUMiLCJmaWxlIjoiIn0= */

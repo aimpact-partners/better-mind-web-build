@@ -1,0 +1,63 @@
+.gclassroom__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: auto;
+  align-items: center;
+}
+.gclassroom__container .card {
+  padding: 2rem;
+  margin: auto;
+  border-radius: var(--border-radius-base);
+  text-align: center;
+  min-width: 500px;
+}
+.gclassroom__container .card .card__content {
+  margin: auto;
+  max-width: 400px;
+}
+.gclassroom__container .card .pui-image {
+  margin: 2rem auto;
+  display: flex;
+  width: 137px;
+}
+.gclassroom__container .card .actions {
+  margin-top: 2rem;
+}
+.gclassroom__container .card .actions button {
+  height: 2.75rem;
+  width: 80%;
+}
+
+.permission__header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  padding-right: 3rem;
+}
+
+@media (max-width: 767px) {
+  .card__content {
+    height: 100%;
+  }
+  .permission-container {
+    height: auto;
+    margin: auto;
+    justify-content: center;
+  }
+  .permission-container .card {
+    margin: auto;
+  }
+  .gclassroom__container {
+    height: auto;
+  }
+  .gclassroom__container .card {
+    min-width: 0;
+    margin: initial;
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7O0FBR0Q7RUFDQztFQUNBO0VBQ0E7O0FBR0Q7RUFDQzs7QUFDQTtFQUNDO0VBQ0E7OztBQU1KO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7O0FBR0Q7RUFDQztJQUNDOztFQUVEO0lBQ0M7SUFDQTtJQUNBOztFQUVBO0lBQ0M7O0VBSUY7SUFDQzs7RUFHRDtJQUNDO0lBQ0EiLCJmaWxlIjoiIn0= */
