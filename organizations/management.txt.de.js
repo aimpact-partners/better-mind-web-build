@@ -29,9 +29,13 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 3888047401,
+        hash: 1065314388,
         creator: function (require, exports) {
           exports.txt = {
+            "breadcrumb": {
+              "organizations": "Institutionen",
+              "management": "Erstellen"
+            },
             "create": {
               "title": "Institution hinzufügen",
               "success": "Institution erfolgreich veröffentlicht",

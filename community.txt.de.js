@@ -29,16 +29,52 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 831677663,
+        hash: 2650029910,
         creator: function (require, exports) {
           exports.txt = {
+            "actions": {
+              "assign": "Zuweisen",
+              "use": "Eine eigene Version erstellen",
+              "continue": "Weiter",
+              "test": "Demo"
+            },
+            "errors": {
+              "default": "Die Operation ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+              "ERROR_GETTING_URL": "Fehler beim Abrufen der URL"
+            },
+            "filter": {
+              "title": "Filter Community",
+              "description": "Indicate the characteristics of the type of learning module you are looking for"
+            },
+            "filters": {
+              "audience": {
+                "label": "Trainingstyp",
+                "error": "Bitte wählen Sie die Zielgruppe",
+                "select": "Alle Zielgruppen"
+              },
+              "level": {
+                "label": "Klasse oder Stufe",
+                "error": "Bitte wählen Sie eine Klasse oder Stufe",
+                "select": "Alle Klassen"
+              },
+              "languages": {
+                "select": {
+                  "label": "Sprache",
+                  "placeholder": "Alle Sprachen"
+                },
+                "label": "Sprachen",
+                "en": "Englisch",
+                "es": "Spanisch",
+                "pt": "Portugiesisch",
+                "fr": "Französisch",
+                "de": "Deutsch",
+                "it": "Italienisch"
+              }
+            },
             "item": {
               "description": "Das Modul hat noch keine Beschreibung"
             },
             "title": "Community",
-            "errors": {
-              "ERROR_GETTING_URL": "Fehler beim Abrufen der URL"
-            },
             "empty": {
               "community": {
                 "title": "Keine Module in der Community",

@@ -29,9 +29,50 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 2745614147,
+        hash: 2069248897,
         creator: function (require, exports) {
-          exports.txt = {};
+          exports.txt = {
+            "actions": {
+              "home": "Zur Startseite"
+            },
+            "breadcrumb": {
+              "organizations": "Institutionen",
+              "management": "erstellen",
+              "join": "Einer Institution beitreten"
+            },
+            "errors": {
+              "ERROR_PUBLISHING": "Die Anfrage konnte nicht gestellt werden, bitte versuchen Sie es später erneut",
+              "INVALID_CODE": "Der Code ist ungültig",
+              "ALREADY_WAITING": "Sie haben bereits eine Anfrage zum Beitritt zur Organisation gestellt, warten Sie auf die Bestätigung des Administrators oder kontaktieren Sie ihn",
+              "ALREADY_MEMBER": "Sie sind bereits Mitglied der Organisation"
+            },
+            "action": {
+              "join": "Beitreten"
+            },
+            "title": "Einer Organisation beitreten",
+            "describe": "Treten Sie einer Organisation bei, um auf Inhalte zuzugreifen und an Bildungsaktivitäten teilzunehmen.",
+            "form": {
+              "title": "Organisationscode",
+              "subtitle": "Geben Sie den vom Organisationsadministrator bereitgestellten Code ein",
+              "placeholder": "Organisationscode"
+            },
+            "info": {
+              "title": "Wie man mit einem gültigen Code beitritt",
+              "help": "Wenn Sie Probleme beim Beitritt haben, wenden Sie sich an den Organisationsadministrator"
+            },
+            "member": {
+              "title": "Sie sind bereits Mitglied der Organisation",
+              "action": "Zur Organisation gehen"
+            },
+            "ready": {
+              "title": "Anfrage gesendet",
+              "description": "Jetzt müssen Sie warten, bis der Administrator die Genehmigung erteilt und dann können Sie Zugang erhalten"
+            },
+            "messages": {
+              "success": "Sie sind der Organisation beigetreten!",
+              "pending": "Ihre Zugangsanfrage wartet auf die Genehmigung durch den Lehrer"
+            }
+          };
         }
       });
       __pkg.exports.descriptor = [{

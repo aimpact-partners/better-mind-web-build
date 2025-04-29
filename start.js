@@ -757,7 +757,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
         *************************/
 
         ims.set('./startup', {
-          hash: 4034650910,
+          hash: 3007228810,
           creator: function (require, exports) {
             "use strict";
 
@@ -789,7 +789,6 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
                 const {
                   environment
                 } = _config.default;
-                console.log(0, 2, _config.default.params.project, _config.default.params.apps[_config.default.params.project]);
                 _session.sessionWrapper.settings({
                   firebase: _config.default.params.apps[_config.default.params.project]
                 });
