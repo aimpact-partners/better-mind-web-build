@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/ailearn-app',
-				version: '0.4.1-dev.05',
+				version: '0.4.1-dev.06',
 				languages: {
 					default: 'en',
 					supported: ['en', 'es', 'de']
@@ -19,7 +19,7 @@ System.register([], function (_export, _context) {
 					},
 					container: 'file',
 					project: 'better-mind',
-					APP_NAME: 'RVD.AI',
+					APP_NAME: 'Ailearn',
 					APP_LOGO: 'logo.png',
 					url: 'https://documents-rb5caohzgq-wl.a.run.app/upload',
 					DOCUMENTS_SERVER: 'https://documents-rb5caohzgq-wl.a.run.app',
