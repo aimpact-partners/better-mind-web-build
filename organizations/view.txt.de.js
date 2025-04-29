@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 4103613725,
+        hash: 176380430,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -52,6 +52,14 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "next": "Weiter",
               "back": "Zurück",
               "confirm": "Bestätigen"
+            },
+            "coins": {
+              "label": "Verfügbare Credits",
+              "assignments": "Interaktive",
+              "modules": "Generative"
+            },
+            "errors": {
+              "10003": "Der Benutzer konnte nicht genehmigt werden. Versuchen Sie es später erneut und wenn das Problem weiterhin besteht, kontaktieren Sie den Support."
             },
             "form": {
               "title": "Benutzer einladen",
@@ -95,11 +103,67 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "title": "Möchten Sie die Benutzerrolle ändern?",
               "info": "Beachten Sie, dass die Änderung der Rolle auch den Zugriff und die Aktionen des Benutzers innerhalb der Organisation ändert."
             },
+            "roles": {
+              "all": {
+                "identifier": "all",
+                "title": "Alle",
+                "entity": "Alle"
+              },
+              "manager": {
+                "identifier": "managers",
+                "title": "Administrator",
+                "entity": "Administratoren"
+              },
+              "member": {
+                "identifier": "members",
+                "title": "Lehrer",
+                "entity": "Lehrer"
+              },
+              "pending": {
+                "identifier": "pendings",
+                "title": "Ausstehend",
+                "entity": "Ausstehend"
+              }
+            },
+            "list": {
+              "managers": {
+                "title": "Administratoren",
+                "role": "Administrator",
+                "single": "Administrator"
+              },
+              "members": {
+                "title": "Lehrer",
+                "role": "Lehrer",
+                "single": "Lehrer"
+              },
+              "pendings": {
+                "title": "Ausstehend",
+                "invited": "Eingeladen"
+              }
+            },
             "ERR_GENERATING_ACTIVITIES": "Fehler beim Generieren von Aktivitäten",
             "messages": {
               "approval": {
                 "success": "Benutzer erfolgreich genehmigt",
                 "error": "Fehler beim Genehmigen des Benutzers"
+              },
+              "copy": "Text erfolgreich kopiert",
+              "copyError": "Fehler beim Kopieren in die Zwischenablage"
+            },
+            "orgCode": "Organisationscode",
+            "title": "Fügen Sie einen Namen hinzu",
+            "description": "Fügen Sie eine Beschreibung hinzu",
+            "empty": {
+              "rol": {
+                "title": "Keine Mitglieder mit diesem Profil registriert"
+              },
+              "pending": {
+                "title": "Keine Mitglieder zur Überprüfung ausstehend"
+              }
+            },
+            "system": {
+              "invite": {
+                "success": "Einladung gesendet"
               }
             }
           };
