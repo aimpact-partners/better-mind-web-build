@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 2442058829,
+        hash: 2045133059,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -52,6 +52,39 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "link": "Link",
               "gTooltip": "Klassenzimmer von Google importiert",
               "import": "Importieren"
+            },
+            "create": {
+              "title": "Organisation hinzufügen",
+              "success": "Organisation erfolgreich veröffentlicht",
+              "error": "Fehler beim Veröffentlichen der Organisation",
+              "name": {
+                "label": "Organisation Name",
+                "placeholder": "Was wird der Name der Organisation sein?"
+              },
+              "description": {
+                "label": "Organisation Beschreibung",
+                "placeholder": "Was ist die Mission dieser Organisation?"
+              },
+              "actions": {
+                "save": "Weitermachen"
+              }
+            },
+            "title": "Organisationen",
+            "subtitle": "Entdecken, anpassen und verwalten Sie Ihre Organisationen nach Ihren Bedürfnissen",
+            "code": "Organisation Code",
+            "messages": {
+              "copied": "Code in die Zwischenablage kopiert"
+            },
+            "empty": {
+              "title": "Registrieren Sie eine Bildungsorganisation in RVD.AI",
+              "description": "Beginnen Sie mit der Registrierung Ihrer Organisation."
+            },
+            "welcome": {
+              "message": "Willkommen %name zu Ihrer Liste von Organisationen",
+              "actionInfo": "Hier können Sie alle Organisationen anzeigen und verwalten, die Sie derzeit haben. Sie haben Zugriff auf verschiedene Aktionen, einschließlich der Erstellung, Löschung und Bearbeitung von Organisationen. Nutzen Sie diese Tools, um jede Organisation nach Ihren Bedürfnissen anzupassen."
+            },
+            "errors": {
+              "ERROR_GETTING_URL": "Fehler beim Abrufen der URL"
             }
           };
         }

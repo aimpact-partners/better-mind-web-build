@@ -21,7 +21,7 @@ System.register([], function (_export, _context) {
               "ailearn": "https://dev.ailearn.api.aimpact.partners",
               "chat": "https://dev.agents.api.aimpact.partners"
             },
-            "betterMind": {
+            "better-mind": {
               "ailearn": "https://better-mind-api-1062406359948.europe-west10.run.app/",
               "chat": "https://agents-api-883367315651.europe-west10.run.app/"
             }
