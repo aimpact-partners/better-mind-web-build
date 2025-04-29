@@ -6,10 +6,10 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/ailearn-app',
-				version: '0.3.33-dev.01',
+				version: '0.4.1-dev.01',
 				languages: {
 					default: 'en',
-					supported: ['en', 'es']
+					supported: ['en', 'es', 'de']
 				},
 				environment: 'development',
 				'global.css': true,
@@ -35,7 +35,7 @@ System.register([], function (_export, _context) {
 							appId: '1:1062406359948:web:6423f65f5a0cb0358864a9',
 							measurementId: 'G-KMQ7Z80SH9'
 						},
-						ailearn: {
+						rvd: {
 							apiKey: 'AIzaSyBYiZcPNBky2QvNdVwgCgU_v2B7feLtbQU',
 							authDomain: 'aimpact-partners-dev.firebaseapp.com',
 							databaseURL: 'https://aimpact-partners-dev-default-rtdb.firebaseio.com',
@@ -48,7 +48,7 @@ System.register([], function (_export, _context) {
 					},
 					baseUrl: 'https://dev.app.rvd.ai',
 					apis: {
-						ailearn: 'https://dev.ailearn.api.aimpact.partners',
+						rvd: 'https://dev.ailearn.api.aimpact.partners',
 						betterMind: 'https://better-mind-api-1062406359948.europe-west10.run.app/'
 					}
 				},
