@@ -1,21 +1,19 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/model", "@beyond-js/http-suite@0.1.0/api", "@aimpact/ailearn-sdk@1.2.0/config", "@aimpact/chat-sdk@1.5.4/session", "@aimpact/ailearn-sdk@1.2.0/startup"], function (_export, _context) {
+System.register(["@beyond-js/kernel@0.1.12/bundle", "@aimpact/ailearn-sdk@1.2.0/startup", "@aimpact/chat-sdk@1.5.4/session", "@beyond-js/http-suite@0.1.0/api", "@beyond-js/reactive@2.0.4/model"], function (_export, _context) {
   "use strict";
 
-  var dependency_0, dependency_1, dependency_2, dependency_3, dependency_4, dependency_5, bimport, __Bundle, __pkg, ims, Application, __beyond_pkg, hmr;
+  var dependency_0, dependency_1, dependency_2, dependency_3, dependency_4, bimport, __Bundle, __pkg, ims, Application, __beyond_pkg, hmr;
   _export("Application", void 0);
   return {
     setters: [function (_beyondJsKernel0112Bundle) {
       dependency_0 = _beyondJsKernel0112Bundle;
-    }, function (_beyondJsReactive204Model) {
-      dependency_1 = _beyondJsReactive204Model;
-    }, function (_beyondJsHttpSuite010Api) {
-      dependency_2 = _beyondJsHttpSuite010Api;
-    }, function (_aimpactAilearnSdk120Config) {
-      dependency_3 = _aimpactAilearnSdk120Config;
-    }, function (_aimpactChatSdk154Session) {
-      dependency_4 = _aimpactChatSdk154Session;
     }, function (_aimpactAilearnSdk120Startup) {
-      dependency_5 = _aimpactAilearnSdk120Startup;
+      dependency_1 = _aimpactAilearnSdk120Startup;
+    }, function (_aimpactChatSdk154Session) {
+      dependency_2 = _aimpactChatSdk154Session;
+    }, function (_beyondJsHttpSuite010Api) {
+      dependency_3 = _beyondJsHttpSuite010Api;
+    }, function (_beyondJsReactive204Model) {
+      dependency_4 = _beyondJsReactive204Model;
     }],
     execute: function () {
       bimport = specifier => {
@@ -32,13 +30,13 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/m
         "type": "ts"
       }, _context.meta.url).package();
       ;
-      __pkg.dependencies.update([['@beyond-js/reactive/model', dependency_1], ['@beyond-js/http-suite/api', dependency_2], ['@aimpact/ailearn-sdk/config', dependency_3], ['@aimpact/chat-sdk/session', dependency_4], ['@aimpact/ailearn-sdk/startup', dependency_5]]);
+      __pkg.dependencies.update([['@aimpact/ailearn-sdk/startup', dependency_1], ['@aimpact/chat-sdk/session', dependency_2], ['@beyond-js/http-suite/api', dependency_3], ['@beyond-js/reactive/model', dependency_4]]);
       ims = new Map();
       /***********************
       INTERNAL MODULE: ./index
       ***********************/
       ims.set('./index', {
-        hash: 4117182810,
+        hash: 1460778365,
         creator: function (require, exports) {
           "use strict";
 
@@ -46,10 +44,10 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/m
             value: true
           });
           exports.Application = void 0;
-          var _model = require("@beyond-js/reactive/model");
-          var _api = require("@beyond-js/http-suite/api");
-          var _session = require("@aimpact/chat-sdk/session");
           var _startup = require("@aimpact/ailearn-sdk/startup");
+          var _session = require("@aimpact/chat-sdk/session");
+          var _api = require("@beyond-js/http-suite/api");
+          var _model = require("@beyond-js/reactive/model");
           /*bundle */
           class Application extends _model.ReactiveModel {
             #api;
@@ -59,7 +57,8 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/m
             }
             async policies() {
               try {
-                this.#api.bearer(_session.sessionWrapper.user.token);
+                const token = await _session.sessionWrapper.user.token;
+                this.#api.bearer(token);
                 const response = await this.#api.get('/application/metadata/policy');
                 if (!response.status) throw new Error('Error fetching policies');
                 return response.data;
@@ -93,4 +92,4 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/m
     }
   };
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfbW9kZWwiLCJyZXF1aXJlIiwiX2FwaSIsIl9zZXNzaW9uIiwiX3N0YXJ0dXAiLCJBcHBsaWNhdGlvbiIsIlJlYWN0aXZlTW9kZWwiLCJhcGkiLCJjb25zdHJ1Y3RvciIsIkFwaSIsInNka0NvbmZpZyIsImFwaXMiLCJhaWxlYXJuIiwicG9saWNpZXMiLCJiZWFyZXIiLCJzZXNzaW9uV3JhcHBlciIsInVzZXIiLCJ0b2tlbiIsInJlc3BvbnNlIiwiZ2V0Iiwic3RhdHVzIiwiRXJyb3IiLCJkYXRhIiwiZSIsImNvbnNvbGUiLCJlcnJvciIsImV4cG9ydHMiXSwic291cmNlcyI6WyIvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOltudWxsXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztVQUFBLElBQUFBLE1BQUEsR0FBQUMsT0FBQTtVQUNBLElBQUFDLElBQUEsR0FBQUQsT0FBQTtVQUVBLElBQUFFLFFBQUEsR0FBQUYsT0FBQTtVQUNBLElBQUFHLFFBQUEsR0FBQUgsT0FBQTtVQUVPO1VBQVcsTUFBT0ksV0FBWSxTQUFRTCxNQUFBLENBQUFNLGFBQTJCO1lBQ3ZFLENBQUFDLEdBQUk7WUFFSkMsWUFBQTtjQUNDLEtBQUssRUFBRTtjQUNQLElBQUksQ0FBQyxDQUFBRCxHQUFJLEdBQUcsSUFBSUwsSUFBQSxDQUFBTyxHQUFHLENBQUNMLFFBQUEsQ0FBQU0sU0FBUyxDQUFDQyxJQUFJLENBQUNDLE9BQU8sQ0FBQztZQUM1QztZQUVBLE1BQU1DLFFBQVFBLENBQUE7Y0FDYixJQUFJO2dCQUNILElBQUksQ0FBQyxDQUFBTixHQUFJLENBQUNPLE1BQU0sQ0FBQ1gsUUFBQSxDQUFBWSxjQUFjLENBQUNDLElBQUksQ0FBQ0MsS0FBSyxDQUFDO2dCQUMzQyxNQUFNQyxRQUFRLEdBQUcsTUFBTSxJQUFJLENBQUMsQ0FBQVgsR0FBSSxDQUFDWSxHQUFHLENBQUMsOEJBQThCLENBQUM7Z0JBQ3BFLElBQUksQ0FBQ0QsUUFBUSxDQUFDRSxNQUFNLEVBQUUsTUFBTSxJQUFJQyxLQUFLLENBQUMseUJBQXlCLENBQUM7Z0JBQ2hFLE9BQU9ILFFBQVEsQ0FBQ0ksSUFBSTtlQUNwQixDQUFDLE9BQU9DLENBQUMsRUFBRTtnQkFDWEMsT0FBTyxDQUFDQyxLQUFLLENBQUNGLENBQUMsQ0FBQzs7WUFFbEI7O1VBQ0FHLE9BQUEsQ0FBQXJCLFdBQUEsR0FBQUEsV0FBQSIsImlnbm9yZUxpc3QiOltdfQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfc3RhcnR1cCIsInJlcXVpcmUiLCJfc2Vzc2lvbiIsIl9hcGkiLCJfbW9kZWwiLCJBcHBsaWNhdGlvbiIsIlJlYWN0aXZlTW9kZWwiLCJhcGkiLCJjb25zdHJ1Y3RvciIsIkFwaSIsInNka0NvbmZpZyIsImFwaXMiLCJhaWxlYXJuIiwicG9saWNpZXMiLCJ0b2tlbiIsInNlc3Npb25XcmFwcGVyIiwidXNlciIsImJlYXJlciIsInJlc3BvbnNlIiwiZ2V0Iiwic3RhdHVzIiwiRXJyb3IiLCJkYXRhIiwiZSIsImNvbnNvbGUiLCJlcnJvciIsImV4cG9ydHMiXSwic291cmNlcyI6WyIvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOltudWxsXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7VUFBQSxJQUFBQSxRQUFBLEdBQUFDLE9BQUE7VUFDQSxJQUFBQyxRQUFBLEdBQUFELE9BQUE7VUFDQSxJQUFBRSxJQUFBLEdBQUFGLE9BQUE7VUFDQSxJQUFBRyxNQUFBLEdBQUFILE9BQUE7VUFFTztVQUFXLE1BQU9JLFdBQVksU0FBUUQsTUFBQSxDQUFBRSxhQUEyQjtZQUN2RSxDQUFBQyxHQUFJO1lBRUpDLFlBQUE7Y0FDQyxLQUFLLEVBQUU7Y0FDUCxJQUFJLENBQUMsQ0FBQUQsR0FBSSxHQUFHLElBQUlKLElBQUEsQ0FBQU0sR0FBRyxDQUFDVCxRQUFBLENBQUFVLFNBQVMsQ0FBQ0MsSUFBSSxDQUFDQyxPQUFPLENBQUM7WUFDNUM7WUFFQSxNQUFNQyxRQUFRQSxDQUFBO2NBQ2IsSUFBSTtnQkFDSCxNQUFNQyxLQUFLLEdBQUcsTUFBTVosUUFBQSxDQUFBYSxjQUFjLENBQUNDLElBQUksQ0FBQ0YsS0FBSztnQkFDN0MsSUFBSSxDQUFDLENBQUFQLEdBQUksQ0FBQ1UsTUFBTSxDQUFDSCxLQUFLLENBQUM7Z0JBQ3ZCLE1BQU1JLFFBQVEsR0FBRyxNQUFNLElBQUksQ0FBQyxDQUFBWCxHQUFJLENBQUNZLEdBQUcsQ0FBQyw4QkFBOEIsQ0FBQztnQkFDcEUsSUFBSSxDQUFDRCxRQUFRLENBQUNFLE1BQU0sRUFBRSxNQUFNLElBQUlDLEtBQUssQ0FBQyx5QkFBeUIsQ0FBQztnQkFDaEUsT0FBT0gsUUFBUSxDQUFDSSxJQUFJO2VBQ3BCLENBQUMsT0FBT0MsQ0FBQyxFQUFFO2dCQUNYQyxPQUFPLENBQUNDLEtBQUssQ0FBQ0YsQ0FBQyxDQUFDOztZQUVsQjs7VUFDQUcsT0FBQSxDQUFBckIsV0FBQSxHQUFBQSxXQUFBIiwiaWdub3JlTGlzdCI6W119

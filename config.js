@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/ailearn-app',
-				version: '0.4.1-dev.01',
+				version: '0.4.1-dev.02',
 				languages: {
 					default: 'en',
 					supported: ['en', 'es', 'de']
@@ -49,7 +49,7 @@ System.register([], function (_export, _context) {
 					baseUrl: 'https://dev.app.rvd.ai',
 					apis: {
 						rvd: 'https://dev.ailearn.api.aimpact.partners',
-						betterMind: 'https://better-mind-api-1062406359948.europe-west10.run.app/'
+						betterMind: 'https://better-mind-api-1062406359948.europe-west10.run.app'
 					}
 				},
 				ssr: {},
