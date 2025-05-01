@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 1860067334,
+        hash: 1296308927,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -54,6 +54,19 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "save": "Speichern",
               "update": "Dokument hochladen",
               "upload": "Bild hochladen"
+            },
+            "title": "Einen Eigentümer angeben",
+            "description": "Der Eigentümer des Lernmoduls wird der Anbieter der erforderlichen AI-Kredite für dessen Bearbeitung und die Interaktion mit den Schülern sein.",
+            "me": {
+              "label": "Ich werde der Eigentümer",
+              "description": "Ich werde der Administrator und Anbieter der AI-Kredite für das Modul sein"
+            },
+            "organization": {
+              "label": "Einer Bildungseinrichtung zuweisen",
+              "description": "Die ausgewählte Bildungseinrichtung wird der Administrator und Anbieter der AI-Kredite für das Modul sein"
+            },
+            "institution": {
+              "label": "Bildungseinrichtung"
             }
           };
         }
