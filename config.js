@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/ailearn-app',
-				version: '0.4.1-dev.08',
+				version: '0.4.1-dev.09',
 				languages: {
 					default: 'en',
 					supported: ['en', 'es', 'de']
@@ -25,9 +25,9 @@ System.register([], function (_export, _context) {
 					DOCUMENTS_SERVER: 'https://documents-rb5caohzgq-wl.a.run.app',
 					CHAT_API_SERVER: 'https://chat-api-http-v2-rb5caohzgq-uc.a.run.app/upload',
 					beta: false,
-					baseUrl: 'https://dev.app.rvd.ai',
 					apps: {
 						'better-mind': {
+							baseUrl: 'https://ai.better-agile.com',
 							apiKey: 'AIzaSyBpF4toVpG-m_XQa3S1Z43hpe766H2JUUA',
 							authDomain: 'better-mind-dev.firebaseapp.com',
 							projectId: 'better-mind-dev',
@@ -37,6 +37,7 @@ System.register([], function (_export, _context) {
 							measurementId: 'G-KMQ7Z80SH9'
 						},
 						rvd: {
+							baseUrl: 'https://dev.app.rvd.ai',
 							apiKey: 'AIzaSyBYiZcPNBky2QvNdVwgCgU_v2B7feLtbQU',
 							authDomain: 'aimpact-partners-dev.firebaseapp.com',
 							databaseURL: 'https://aimpact-partners-dev-default-rtdb.firebaseio.com',
