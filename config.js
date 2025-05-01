@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/ailearn-app',
-				version: '0.4.1-dev.06',
+				version: '0.4.1-dev.07',
 				languages: {
 					default: 'en',
 					supported: ['en', 'es', 'de']
@@ -25,6 +25,7 @@ System.register([], function (_export, _context) {
 					DOCUMENTS_SERVER: 'https://documents-rb5caohzgq-wl.a.run.app',
 					CHAT_API_SERVER: 'https://chat-api-http-v2-rb5caohzgq-uc.a.run.app/upload',
 					beta: false,
+					baseUrl: 'https://dev.app.rvd.ai',
 					apps: {
 						'better-mind': {
 							apiKey: 'AIzaSyBpF4toVpG-m_XQa3S1Z43hpe766H2JUUA',
@@ -46,7 +47,6 @@ System.register([], function (_export, _context) {
 							measurementId: 'G-QLL5WFH89Y'
 						}
 					},
-					baseUrl: 'https://dev.app.rvd.ai',
 					apis: {
 						rvd: 'https://dev.ailearn.api.aimpact.partners',
 						'better-mind': 'https://better-mind-api-1062406359948.europe-west10.run.app'

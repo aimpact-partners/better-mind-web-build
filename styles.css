@@ -300,61 +300,6 @@
   box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
 }
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap");
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("/assets/fonts/OpenDyslexic-Regular.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("/assets/fonts/OpenDyslexic-Bold.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("/assets/fonts/OpenDyslexic-Italic.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "OpenDyslexic";
-  src: url("/assets/fonts/OpenDyslexic-Bold-Italic.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Bold-Italic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-.pui-popover-tour .driver-popover-navigation-btns {
-  display: grid;
-  gap: 1px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.pui-popover-tour .driver-popover-prev-btn,
-.pui-popover-tour .driver-popover-next-btn {
-  background: var(--primary);
-  color: var(--on-primary);
-  text-shadow: none;
-  text-align: center;
-  border-radius: var(--border-radius-base);
-  padding: 0.5rem 1rem;
-  font-family: var(--font-family);
-  text-transform: uppercase;
-  transition: background 0.3s ease-in-out;
-}
-
-.pui-popover-tour .driver-popover-prev-btn:hover,
-.pui-popover-tour .driver-popover-next-btn:hover {
-  background: var(--primary-dark);
-  color: var(--on-primary);
-}
-
-.pui-popover-tour .driver-popover-prev-btn {
-  background: var(--transparent);
-  border: 1px solid var(--primary);
-  color: var(--primary);
-}
-
 :root {
   --neutral-white: #ffffff;
   --neutral-black: #000000;
@@ -496,6 +441,61 @@
   --info-100: #ffffff;
 }
 
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("/assets/fonts/OpenDyslexic-Regular.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("/assets/fonts/OpenDyslexic-Bold.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("/assets/fonts/OpenDyslexic-Italic.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("/assets/fonts/OpenDyslexic-Bold-Italic.woff2") format("woff2"), url("/assets/fonts/OpenDyslexic-Bold-Italic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+.pui-popover-tour .driver-popover-navigation-btns {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pui-popover-tour .driver-popover-prev-btn,
+.pui-popover-tour .driver-popover-next-btn {
+  background: var(--primary);
+  color: var(--on-primary);
+  text-shadow: none;
+  text-align: center;
+  border-radius: var(--border-radius-base);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+}
+
+.pui-popover-tour .driver-popover-prev-btn:hover,
+.pui-popover-tour .driver-popover-next-btn:hover {
+  background: var(--primary-dark);
+  color: var(--on-primary);
+}
+
+.pui-popover-tour .driver-popover-prev-btn {
+  background: var(--transparent);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
 :root {
   color-scheme: only light;
   --secondary-font-family: "Rubik", sans-serif;
@@ -505,13 +505,13 @@
   --border-radius-base: 16px;
   --border-radius-lg: 25px;
   --navbar-height: 79px;
-  --content-theory: #644a78;
-  --debate: #d0493a;
-  --conversation: rgb(240, 145, 36);
-  --character-talk: #cf8836;
-  --spoken: #9aae3b;
-  --multiple-choice: #009468ff;
-  --assessment: #009468ff;
+  --content-theory: var(--secondary);
+  --debate: var(--secondary);
+  --conversation: var(--secondary);
+  --character-talk: var(--secondary);
+  --spoken: var(--secondary);
+  --multiple-choice: var(--secondary);
+  --assessment: var(--secondary);
   --chat-input-border-color: var(--neutral-80);
   --next-steps-background: var(--neutral-95);
   --on-next-steps-background: var(--neutral-10);
