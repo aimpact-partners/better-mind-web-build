@@ -1,7 +1,7 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle","zod@3.24.3","@beyond-js/events@0.0.7/events","@beyond-js/reactive@2.0.5/model","uuid@11.1.0"], (_exports, _context) => {
+System.register(["@beyond-js/kernel@0.1.12/bundle","zod@3.24.4","@beyond-js/events@0.0.7/events","@beyond-js/reactive@2.0.5/model","uuid@11.1.0"], (_exports, _context) => {
 
 const bimport = specifier => {
-	const dependencies = new Map([["@beyond-js/kernel","0.1.12"],["zod","3.24.3"],["@beyond-js/events","0.0.7"],["@beyond-js/reactive","2.0.5"],["uuid","11.1.0"]]);
+	const dependencies = new Map([["@beyond-js/kernel","0.1.12"],["zod","3.24.4"],["@beyond-js/events","0.0.7"],["@beyond-js/reactive","2.0.5"],["uuid","11.1.0"]]);
 	return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
 };
 
@@ -9,7 +9,7 @@ const bimport = specifier => {
 var dependencies = new Map();
 var require = dependency => dependencies.get(dependency);
 return {
-setters: [dep => dependencies.set('@beyond-js/kernel@0.1.12/bundle', dep), dep => dependencies.set('zod@3.24.3', dep), dep => dependencies.set('@beyond-js/events@0.0.7/events', dep), dep => dependencies.set('@beyond-js/reactive@2.0.5/model', dep), dep => dependencies.set('uuid@11.1.0', dep)],
+setters: [dep => dependencies.set('@beyond-js/kernel@0.1.12/bundle', dep), dep => dependencies.set('zod@3.24.4', dep), dep => dependencies.set('@beyond-js/events@0.0.7/events', dep), dep => dependencies.set('@beyond-js/reactive@2.0.5/model', dep), dep => dependencies.set('uuid@11.1.0', dep)],
 execute: function() {
 // Prevent esbuild from considering the context to be amd
 const define = void 0;

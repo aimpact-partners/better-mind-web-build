@@ -1,7 +1,7 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle","zod@3.24.3","@beyond-js/events@0.0.7/events"], (_exports, _context) => {
+System.register(["@beyond-js/kernel@0.1.12/bundle","zod@3.24.4","@beyond-js/events@0.0.7/events"], (_exports, _context) => {
 
 const bimport = specifier => {
-	const dependencies = new Map([["@beyond-js/kernel","0.1.12"],["zod","3.24.3"],["@beyond-js/events","0.0.7"],["@beyond-js/reactive","2.0.5"]]);
+	const dependencies = new Map([["@beyond-js/kernel","0.1.12"],["zod","3.24.4"],["@beyond-js/events","0.0.7"],["@beyond-js/reactive","2.0.5"]]);
 	return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
 };
 
@@ -9,7 +9,7 @@ const bimport = specifier => {
 var dependencies = new Map();
 var require = dependency => dependencies.get(dependency);
 return {
-setters: [dep => dependencies.set('@beyond-js/kernel@0.1.12/bundle', dep), dep => dependencies.set('zod@3.24.3', dep), dep => dependencies.set('@beyond-js/events@0.0.7/events', dep)],
+setters: [dep => dependencies.set('@beyond-js/kernel@0.1.12/bundle', dep), dep => dependencies.set('zod@3.24.4', dep), dep => dependencies.set('@beyond-js/events@0.0.7/events', dep)],
 execute: function() {
 // Prevent esbuild from considering the context to be amd
 const define = void 0;
@@ -59,7 +59,7 @@ module.exports = __toCommonJS(model_2_0_5_exports);
 
 // node_modules/@beyond-js/reactive/model/model.browser.mjs
 var dependency_0 = __toESM(require("@beyond-js/kernel@0.1.12/bundle"), 0);
-var dependency_1 = __toESM(require("zod@3.24.3"), 0);
+var dependency_1 = __toESM(require("zod@3.24.4"), 0);
 var dependency_2 = __toESM(require("@beyond-js/events@0.0.7/events"), 0);
 var import_meta = {};
 var {
