@@ -758,7 +758,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
         *************************/
 
         ims.set('./startup', {
-          hash: 1270204194,
+          hash: 2129065405,
           creator: function (require, exports) {
             "use strict";
 
@@ -787,7 +787,8 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
                 //@ts-ignore
                 const {
                   environment,
-                  params
+                  params,
+                  version
                 } = _config.default;
                 const {
                   firebase,
@@ -807,7 +808,8 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
                   project,
                   Router,
                   APP_LOGO,
-                  APP_NAME
+                  APP_NAME,
+                  version
                 });
                 // initialize chat-sdk settings
                 await _startup2.sdkConfig.initialize({

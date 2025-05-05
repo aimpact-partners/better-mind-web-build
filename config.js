@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/better-mind',
-				version: '0.4.1-dev.13',
+				version: '0.0.1-dev.01',
 				languages: {
 					default: 'en',
 					supported: ['en', 'es', 'de']
@@ -16,7 +16,7 @@ System.register([], function (_export, _context) {
 				params: {
 					app: '@aimpact-partners/better-mind',
 					APP_NAME: 'Better AI',
-					APP_LOGO: 'assets/images/branding/logo.png',
+					APP_LOGO: '/assets/images/branding/logo.png',
 					baseUrl: 'https://ai.better-agile.com',
 					apis: {
 						ailearn: 'https://better-mind-api-1062406359948.europe-west10.run.app',
