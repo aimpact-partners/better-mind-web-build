@@ -765,66 +765,66 @@
 }
 .entity-card.activity-card.activity-card--content-theory .figcaption__top-content {
   background: var(--content-theory);
-  color: var(--on-primary);
+  color: var(--on-content-theory);
 }
 .entity-card.activity-card.activity-card--content-theory .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-content-theory);
 }
 .entity-card.activity-card.activity-card--conversation .figcaption__top-content {
   background: var(--conversation);
-  color: var(--on-primary);
+  color: var(--on-conversation);
 }
 .entity-card.activity-card.activity-card--conversation .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-conversation);
 }
 .entity-card.activity-card.activity-card--multiple-choice .figcaption__top-content {
   background: var(--multiple-choice);
-  color: var(--on-primary);
+  color: var(--on-multiple-choice);
 }
 .entity-card.activity-card.activity-card--multiple-choice .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-multiple-choice);
 }
 .entity-card.activity-card.activity-card--spoken .figcaption__top-content {
   background: var(--spoken);
-  color: var(--on-primary);
+  color: var(--on-spoken);
 }
 .entity-card.activity-card.activity-card--spoken .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-spoken);
 }
 .entity-card.activity-card.activity-card--written .figcaption__top-content {
   background: var(--written);
-  color: var(--on-primary);
+  color: var(--on-written);
 }
 .entity-card.activity-card.activity-card--written .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-written);
 }
 .entity-card.activity-card.activity-card--written-spoken .figcaption__top-content {
   background: var(--written-spoken);
-  color: var(--on-primary);
+  color: var(--on-written-spoken);
 }
 .entity-card.activity-card.activity-card--written-spoken .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-written-spoken);
 }
 .entity-card.activity-card.activity-card--assessment .figcaption__top-content {
   background: var(--assessment);
-  color: var(--on-primary);
+  color: var(--on-assessment);
 }
 .entity-card.activity-card.activity-card--assessment .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-assessment);
 }
 .entity-card.activity-card.activity-card--character-talk .figcaption__top-content {
   background: var(--character-talk);
-  color: var(--on-primary);
+  color: var(--on-character-talk);
 }
 .entity-card.activity-card.activity-card--character-talk .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-character-talk);
 }
 .entity-card.activity-card.activity-card--debate .figcaption__top-content {
   background: var(--debate);
-  color: var(--on-primary);
+  color: var(--on-debate);
 }
 .entity-card.activity-card.activity-card--debate .figcaption__top-content .pui-icon {
-  fill: var(--on-primary);
+  fill: var(--on-debate);
 }
 .entity-card.assignments-card .entity-card__footer .show-on-normal {
   display: flex;
