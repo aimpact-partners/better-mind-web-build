@@ -6,7 +6,7 @@ System.register([], function (_export, _context) {
 		execute: function () {
 			_export('default', {
 				package: '@aimpact/better-mind',
-				version: '0.4.1-dev.10',
+				version: '0.4.1-dev.11',
 				languages: {
 					default: 'en',
 					supported: ['en', 'es', 'de']
