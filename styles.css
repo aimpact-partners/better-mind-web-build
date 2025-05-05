@@ -465,37 +465,6 @@
   font-weight: bold;
   font-style: italic;
 }
-.pui-popover-tour .driver-popover-navigation-btns {
-  display: grid;
-  gap: 1px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.pui-popover-tour .driver-popover-prev-btn,
-.pui-popover-tour .driver-popover-next-btn {
-  background: var(--primary);
-  color: var(--on-primary);
-  text-shadow: none;
-  text-align: center;
-  border-radius: var(--border-radius-base);
-  padding: 0.5rem 1rem;
-  font-family: var(--font-family);
-  text-transform: uppercase;
-  transition: background 0.3s ease-in-out;
-}
-
-.pui-popover-tour .driver-popover-prev-btn:hover,
-.pui-popover-tour .driver-popover-next-btn:hover {
-  background: var(--primary-dark);
-  color: var(--on-primary);
-}
-
-.pui-popover-tour .driver-popover-prev-btn {
-  background: var(--transparent);
-  border: 1px solid var(--primary);
-  color: var(--primary);
-}
-
 :root {
   color-scheme: only light;
   --secondary-font-family: "Rubik", sans-serif;
@@ -505,13 +474,15 @@
   --border-radius-base: 16px;
   --border-radius-lg: 25px;
   --navbar-height: 79px;
-  --content-theory: var(--secondary);
-  --debate: var(--secondary);
-  --conversation: var(--secondary);
-  --character-talk: var(--secondary);
-  --spoken: var(--secondary);
-  --multiple-choice: var(--secondary);
-  --assessment: var(--secondary);
+  --content-theory: #644a78;
+  --debate: #d0493a;
+  --conversation: rgb(240, 145, 36);
+  --character-talk: #cf8836;
+  --spoken: #9aae3b;
+  --multiple-choice: #009468ff;
+  --assessment: #009468ff;
+  --activity-header-bg: #e2e2e2;
+  --activity-header-text-color: var(--text-color);
   --chat-input-border-color: var(--neutral-80);
   --next-steps-background: var(--neutral-95);
   --on-next-steps-background: var(--neutral-10);

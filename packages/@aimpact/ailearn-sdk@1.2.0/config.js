@@ -9,7 +9,7 @@ System.register([], function (_export, _context) {
         "version": "1.2.0",
         "languages": {
           "default": "en",
-          "supported": ["en", "es"]
+          "supported": ["en", "es", "de"]
         },
         "environment": "local",
         "global.css": true,

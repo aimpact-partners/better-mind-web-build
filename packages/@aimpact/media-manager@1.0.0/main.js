@@ -1,4 +1,4 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/model", "@beyond-js/kernel@0.1.12/core"], function (_export, _context) {
+System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.5/model", "@beyond-js/kernel@0.1.12/core"], function (_export, _context) {
   "use strict";
 
   var dependency_0, dependency_1, dependency_2, bimport, __Bundle, __pkg, ims, mediaDevice, __beyond_pkg, hmr;
@@ -6,14 +6,14 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/reactive@2.0.4/m
   return {
     setters: [function (_beyondJsKernel0112Bundle) {
       dependency_0 = _beyondJsKernel0112Bundle;
-    }, function (_beyondJsReactive204Model) {
-      dependency_1 = _beyondJsReactive204Model;
+    }, function (_beyondJsReactive205Model) {
+      dependency_1 = _beyondJsReactive205Model;
     }, function (_beyondJsKernel0112Core) {
       dependency_2 = _beyondJsKernel0112Core;
     }],
     execute: function () {
       bimport = specifier => {
-        const dependencies = new Map([["pragmate-ui", "1.0.0-beta.7"], ["@beyond-js/backend", "0.1.9"], ["@beyond-js/events", "0.0.7"], ["@beyond-js/kernel", "0.1.9"], ["@beyond-js/local", "0.1.3"], ["@beyond-js/react-18-widgets", "1.1.2"], ["@beyond-js/reactive", "1.1.13"], ["socket.io-client", "4.8.1"], ["@aimpact/media-manager", "1.0.0"], ["@aimpact/ailearn-app", "0.4.1"]]);
+        const dependencies = new Map([["pragmate-ui", "1.0.0-beta.7"], ["@beyond-js/backend", "0.1.9"], ["@beyond-js/events", "0.0.7"], ["@beyond-js/kernel", "0.1.9"], ["@beyond-js/local", "0.1.3"], ["@beyond-js/react-18-widgets", "1.1.2"], ["@beyond-js/reactive", "1.1.13"], ["socket.io-client", "4.8.1"], ["@aimpact/media-manager", "1.0.0"], ["@aimpact/better-mind", "0.0.1"]]);
         return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
       };
       ({

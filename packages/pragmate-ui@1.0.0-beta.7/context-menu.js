@@ -1,4 +1,4 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "@beyond-js/reactive@2.0.4/model", "pragmate-ui@1.0.0-beta.7/base", "pragmate-ui@1.0.0-beta.7/icons", "@beyond-js/kernel@0.1.12/styles"], function (_export, _context2) {
+System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "@beyond-js/reactive@2.0.5/model", "pragmate-ui@1.0.0-beta.7/base", "pragmate-ui@1.0.0-beta.7/icons", "@beyond-js/kernel@0.1.12/styles"], function (_export, _context2) {
   "use strict";
 
   var dependency_0, dependency_1, dependency_2, dependency_3, dependency_4, dependency_5, bimport, __Bundle, __pkg, ims, ContextMenuContainer, ContextMenuManager, ContextMenu, ContextItem, __beyond_pkg, hmr;
@@ -13,8 +13,8 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "@beyond-js/
       dependency_0 = _beyondJsKernel0112Bundle;
     }, function (_react2) {
       dependency_1 = _react2;
-    }, function (_beyondJsReactive204Model) {
-      dependency_2 = _beyondJsReactive204Model;
+    }, function (_beyondJsReactive205Model) {
+      dependency_2 = _beyondJsReactive205Model;
     }, function (_pragmateUi100Beta7Base) {
       dependency_3 = _pragmateUi100Beta7Base;
     }, function (_pragmateUi100Beta7Icons) {
@@ -24,7 +24,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "@beyond-js/
     }],
     execute: function () {
       bimport = specifier => {
-        const dependencies = new Map([["@beyond-js/events", "0.0.7"], ["@beyond-js/kernel", "0.1.12"], ["@beyond-js/reactive", "2.0.1"], ["clsx", "2.1.1"], ["framer-motion", "11.11.11"], ["is-mobile", "4.0.0"], ["perfect-scrollbar", "1.5.6"], ["prismjs", "1.29.0"], ["swiper", "10.3.1"], ["tippy.js", "6.3.7"], ["@types/react", "18.3.12"], ["@types/react-dom", "18.3.1"], ["pragmate-ui", "1.0.0-beta.7"], ["@aimpact/ailearn-app", "0.4.1"]]);
+        const dependencies = new Map([["@beyond-js/events", "0.0.7"], ["@beyond-js/kernel", "0.1.12"], ["@beyond-js/reactive", "2.0.1"], ["clsx", "2.1.1"], ["framer-motion", "11.11.11"], ["is-mobile", "4.0.0"], ["perfect-scrollbar", "1.5.6"], ["prismjs", "1.29.0"], ["swiper", "10.3.1"], ["tippy.js", "6.3.7"], ["@types/react", "18.3.12"], ["@types/react-dom", "18.3.1"], ["pragmate-ui", "1.0.0-beta.7"], ["@aimpact/better-mind", "0.0.1"]]);
         return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
       };
       ({

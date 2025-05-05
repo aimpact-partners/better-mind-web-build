@@ -1,4 +1,4 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "pragmate-ui@1.0.0-beta.7/icons", "swiper@10.3.1", "swiper@10.3.1/modules", "@beyond-js/reactive@2.0.4/model", "@beyond-js/kernel@0.1.12/styles"], function (_export, _context2) {
+System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "pragmate-ui@1.0.0-beta.7/icons", "swiper@10.3.1", "swiper@10.3.1/modules", "@beyond-js/reactive@2.0.5/model", "@beyond-js/kernel@0.1.12/styles"], function (_export, _context2) {
   "use strict";
 
   var dependency_0, dependency_1, dependency_2, dependency_3, dependency_4, dependency_5, dependency_6, bimport, __Bundle, __pkg, ims, SwiperSlider, __beyond_pkg, hmr;
@@ -14,14 +14,14 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "react@18.3.1", "pragmate-ui
       dependency_3 = _swiper;
     }, function (_swiper1031Modules) {
       dependency_4 = _swiper1031Modules;
-    }, function (_beyondJsReactive204Model) {
-      dependency_5 = _beyondJsReactive204Model;
+    }, function (_beyondJsReactive205Model) {
+      dependency_5 = _beyondJsReactive205Model;
     }, function (_beyondJsKernel0112Styles) {
       dependency_6 = _beyondJsKernel0112Styles;
     }],
     execute: function () {
       bimport = specifier => {
-        const dependencies = new Map([["@beyond-js/events", "0.0.7"], ["@beyond-js/kernel", "0.1.12"], ["@beyond-js/reactive", "2.0.1"], ["clsx", "2.1.1"], ["framer-motion", "11.11.11"], ["is-mobile", "4.0.0"], ["perfect-scrollbar", "1.5.6"], ["prismjs", "1.29.0"], ["swiper", "10.3.1"], ["tippy.js", "6.3.7"], ["@types/react", "18.3.12"], ["@types/react-dom", "18.3.1"], ["pragmate-ui", "1.0.0-beta.7"], ["@aimpact/ailearn-app", "0.4.1"]]);
+        const dependencies = new Map([["@beyond-js/events", "0.0.7"], ["@beyond-js/kernel", "0.1.12"], ["@beyond-js/reactive", "2.0.1"], ["clsx", "2.1.1"], ["framer-motion", "11.11.11"], ["is-mobile", "4.0.0"], ["perfect-scrollbar", "1.5.6"], ["prismjs", "1.29.0"], ["swiper", "10.3.1"], ["tippy.js", "6.3.7"], ["@types/react", "18.3.12"], ["@types/react-dom", "18.3.1"], ["pragmate-ui", "1.0.0-beta.7"], ["@aimpact/better-mind", "0.0.1"]]);
         return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
       };
       ({
