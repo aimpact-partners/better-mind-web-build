@@ -1,4 +1,4 @@
-System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/transversals", "@beyond-js/widgets@1.1.2/render", "@aimpact/ailearn-app@0.4.1/model/wrapper", "@aimpact/chat-sdk@1.5.4/session", "@beyond-js/kernel@0.1.12/routing", "react@18.3.1", "pragmate-ui@1.0.0-beta.7/icons", "pragmate-ui@1.0.0-beta.7/image", "@beyond-js/reactive@2.0.5/model", "@aimpact/ailearn-sdk@1.2.0/core", "@aimpact/better-mind@0.0.1/config", "@aimpact/chat-sdk@1.5.4/startup", "@aimpact/agents-api@0.4.1/ws-config", "@aimpact/ailearn-sdk@1.2.0/startup"], function (_export, _context) {
+System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/transversals", "@beyond-js/widgets@1.1.2/render", "@aimpact/ailearn-app@0.4.1/model/wrapper", "@aimpact/chat-sdk@1.5.4/session", "@beyond-js/kernel@0.1.12/routing", "react@18.3.1", "pragmate-ui@1.0.0-beta.7/icons", "pragmate-ui@1.0.0-beta.7/image", "@beyond-js/reactive@2.0.5/model", "@aimpact/ailearn-sdk@1.2.0/core", "@aimpact/better-mind@0.0.1/config", "@aimpact/ailearn-sdk@1.2.0/startup", "@aimpact/chat-sdk@1.5.4/startup", "@aimpact/agents-api@0.4.1/ws-config"], function (_export, _context) {
   "use strict";
 
   var dependency_0, dependency_1, dependency_2, dependency_3, dependency_4, dependency_5, dependency_6, dependency_7, dependency_8, dependency_9, dependency_10, dependency_11, dependency_12, dependency_13, dependency_14, Transversal, __beyond_transversal, widgets, bundles;
@@ -27,19 +27,19 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
       dependency_10 = _aimpactAilearnSdk120Core;
     }, function (_aimpactBetterMind001Config) {
       dependency_11 = _aimpactBetterMind001Config;
-    }, function (_aimpactChatSdk154Startup) {
-      dependency_12 = _aimpactChatSdk154Startup;
-    }, function (_aimpactAgentsApi041WsConfig) {
-      dependency_13 = _aimpactAgentsApi041WsConfig;
     }, function (_aimpactAilearnSdk120Startup) {
-      dependency_14 = _aimpactAilearnSdk120Startup;
+      dependency_12 = _aimpactAilearnSdk120Startup;
+    }, function (_aimpactChatSdk154Startup) {
+      dependency_13 = _aimpactChatSdk154Startup;
+    }, function (_aimpactAgentsApi041WsConfig) {
+      dependency_14 = _aimpactAgentsApi041WsConfig;
     }],
     execute: function () {
       ({
         Transversal
       } = brequire('@beyond-js/kernel/transversals'));
       _export("__beyond_transversal", __beyond_transversal = new Transversal('start', ''));
-      __beyond_transversal.dependencies.update([['@beyond-js/kernel/transversals', dependency_1], ['@beyond-js/widgets/render', dependency_2], ['@aimpact/ailearn-app/model/wrapper', dependency_3], ['@aimpact/chat-sdk/session', dependency_4], ['@beyond-js/kernel/routing', dependency_5], ['react', dependency_6], ['pragmate-ui/icons', dependency_7], ['pragmate-ui/image', dependency_8], ['@beyond-js/reactive/model', dependency_9], ['@aimpact/ailearn-sdk/core', dependency_10], ['@aimpact/better-mind/config', dependency_11], ['@aimpact/chat-sdk/startup', dependency_12], ['@aimpact/agents-api/ws-config', dependency_13], ['@aimpact/ailearn-sdk/startup', dependency_14]]);
+      __beyond_transversal.dependencies.update([['@beyond-js/kernel/transversals', dependency_1], ['@beyond-js/widgets/render', dependency_2], ['@aimpact/ailearn-app/model/wrapper', dependency_3], ['@aimpact/chat-sdk/session', dependency_4], ['@beyond-js/kernel/routing', dependency_5], ['react', dependency_6], ['pragmate-ui/icons', dependency_7], ['pragmate-ui/image', dependency_8], ['@beyond-js/reactive/model', dependency_9], ['@aimpact/ailearn-sdk/core', dependency_10], ['@aimpact/better-mind/config', dependency_11], ['@aimpact/ailearn-sdk/startup', dependency_12], ['@aimpact/chat-sdk/startup', dependency_13], ['@aimpact/agents-api/ws-config', dependency_14]]);
 
       /*************
       BUNDLE: WIDGET
@@ -758,7 +758,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
         *************************/
 
         ims.set('./startup', {
-          hash: 2093968602,
+          hash: 1270204194,
           creator: function (require, exports) {
             "use strict";
 
@@ -792,7 +792,9 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
                 const {
                   firebase,
                   apis,
-                  baseUrl
+                  baseUrl,
+                  APP_LOGO,
+                  APP_NAME
                 } = params;
                 _session.sessionWrapper.settings({
                   firebase
@@ -803,7 +805,9 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
                   apis,
                   baseUrl,
                   project,
-                  Router
+                  Router,
+                  APP_LOGO,
+                  APP_NAME
                 });
                 // initialize chat-sdk settings
                 await _startup2.sdkConfig.initialize({
@@ -851,7 +855,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
           "name": "ProfileIcon"
         }];
         return {
-          dependencies: ['react', 'pragmate-ui/icons', '@aimpact/chat-sdk/session', 'pragmate-ui/image', '@beyond-js/reactive/model', '@beyond-js/widgets/render', '@aimpact/ailearn-sdk/core', '@aimpact/better-mind/config', '@aimpact/chat-sdk/startup', '@aimpact/agents-api/ws-config', '@aimpact/ailearn-app/model/wrapper', '@aimpact/ailearn-sdk/startup']
+          dependencies: ['react', 'pragmate-ui/icons', '@aimpact/chat-sdk/session', 'pragmate-ui/image', '@beyond-js/reactive/model', '@beyond-js/widgets/render', '@aimpact/ailearn-sdk/core', '@aimpact/better-mind/config', '@aimpact/ailearn-sdk/startup', '@aimpact/chat-sdk/startup', '@aimpact/agents-api/ws-config', '@aimpact/ailearn-app/model/wrapper']
         };
       }]);
       __beyond_transversal.initialise(bundles);
