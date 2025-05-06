@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 419350463,
+        hash: 123850105,
         creator: function (require, exports) {
           exports.txt = {
             "breadcrumb": {
@@ -68,7 +68,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "audio": {
               "title": "Audio-Einstellungen",
               "speed": "Geschwindigkeit",
-              "sampleText": "Hallo! Dies ist RVD.AI, Ihr Bildungsassistent.",
+              "sampleText": "Hallo! Dies ist betterAI, Ihr Bildungsassistent.",
               "voices": {
                 "label": "Stimme für Audioaufnahmen",
                 "action": "Hörprobe anhören"

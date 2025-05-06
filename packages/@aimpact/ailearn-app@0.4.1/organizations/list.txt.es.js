@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 3855238460,
+        hash: 2042190731,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -80,7 +80,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "copied": "Código copiado al portapapeles"
             },
             "empty": {
-              "title": "Registre una institución educativa en RVD.AI",
+              "title": "Registre una institución educativa en betterAI",
               "description": "Comience registrando su institución. "
             },
             "welcome": {

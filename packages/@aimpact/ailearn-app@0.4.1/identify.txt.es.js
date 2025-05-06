@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 1147331824,
+        hash: 1572864343,
         creator: function (require, exports) {
           exports.txt = {
             "errors": {
@@ -78,19 +78,19 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               },
               "teacherInstitution": {
                 "title": "Tu solicitud para unirte a la institución está en proceso de revisión.",
-                "description": "Por favor, espera la aprobación del administrador para acceder al espacio educativo de la institución. <strong>Revisa tu correo electrónico</strong> donde te notificaremos una vez que tu solicitud haya sido aprobada para poder acceder a <strong>RVD.AI Rivadavia</strong>."
+                "description": "Por favor, espera la aprobación del administrador para acceder al espacio educativo de la institución. <strong>Revisa tu correo electrónico</strong> donde te notificaremos una vez que tu solicitud haya sido aprobada para poder acceder a <strong>betterAI</strong>."
               },
               "teacherApproved": {
                 "title": "¡Felicitaciones! Tu solicitud ha sido aprobada",
-                "description": "Ya eres parte de la institución {organization}, Comienza a utilizar RVD.AI."
+                "description": "Ya eres parte de la institución {organization}, Comienza a utilizar betterAI."
               },
               "student": {
                 "title": "Tu solicitud para unirte al aula está en proceso de revisión.",
-                "description": "Por favor, espera la aprobación del profesor para acceder al aula. <strong>Revisa tu correo electrónico</strong> donde te notificaremos una vez que tu solicitud haya sido aprobada para poder acceder a <strong>RVD.AI Rivadavia</strong>."
+                "description": "Por favor, espera la aprobación del profesor para acceder al aula. <strong>Revisa tu correo electrónico</strong> donde te notificaremos una vez que tu solicitud haya sido aprobada para poder acceder a <strong>betterAI</strong>."
               },
               "studentApproved": {
                 "title": "¡Felicitaciones! Tu solicitud ha sido aprobada",
-                "description": "Ya eres parte del aula, Comienza a utilizar RVD.AI."
+                "description": "Ya eres parte del aula, Comienza a utilizar betterAI."
               },
               "institution": {
                 "title": "¡Felicitaciones! Tu institución ya puede iniciar su período de prueba",
@@ -118,11 +118,11 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "student": {
               "selection": {
                 "title": "Estás a punto de comenzar el camino hacia la transformación educativa",
-                "description": "Para comenzar tu experiencia de aprendizaje con RVD.AI Rivadavia, puedes solicitar al profesor el código de acceso al aula e insertarlo para continuar, o bien pedir el enlace de acceso a una actividad. Una vez que tengas esta información, podrás ingresar al módulo de aprendizaje y comenzar a explorar el contenido diseñado especialmente para ti."
+                "description": "Para comenzar tu experiencia de aprendizaje con betterAI, puedes solicitar al profesor el código de acceso al aula e insertarlo para continuar, o bien pedir el enlace de acceso a una actividad. Una vez que tengas esta información, podrás ingresar al módulo de aprendizaje y comenzar a explorar el contenido diseñado especialmente para ti."
               },
               "form": {
                 "title": "Comienza a transitar la transformación educativa",
-                "description": "Estás a punto de unirte al espacio educativo de tu institución. Para ingresar a RVD.AI Rivadavia debes validar el código de acceso provisto por el administrador de tu institución.",
+                "description": "Estás a punto de unirte al espacio educativo de tu institución. Para ingresar a betterAI debes validar el código de acceso provisto por el administrador de tu institución.",
                 "form": {
                   "legend": {
                     "title": "¿No tienes tu código?",
@@ -174,22 +174,22 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "institution": {
                 "intro": {
                   "hello": "Hola {username}",
-                  "title": "¿La institución donde trabajas utiliza RVD.AI?",
-                  "description": "Mi institución ya trabaja con <strong>RVD.AI</strong> Rivadavia y quiero sumarme a su espacio educativo.",
+                  "title": "¿La institución donde trabajas utiliza betterAI?",
+                  "description": "Mi institución ya trabaja con <strong>betterAI</strong> Rivadavia y quiero sumarme a su espacio educativo.",
                   "options": {
                     "yes": {
                       "label": "Sí",
-                      "description": "Mi institución ya trabaja con <strong>RVD.AI Rivadavia</strong> y quiero sumarme a su espacio educativo."
+                      "description": "Mi institución ya trabaja con <strong>betterAI</strong> y quiero sumarme a su espacio educativo."
                     },
                     "no": {
                       "label": "No",
-                      "description": "Mi institución no trabaja con <strong>RVD.AI Rivadavia</strong>. Quiero sumarme a la herramienta como docente independiente."
+                      "description": "Mi institución no trabaja con <strong>betterAI</strong>. Quiero sumarme a la herramienta como docente independiente."
                     }
                   }
                 },
                 "form": {
                   "title": "Comienza a transitar la transformación educativa",
-                  "description": "Estás a punto de unirte al espacio educativo de tu institución. Para ingresar a RVD.AI Rivadavia debes validar el código de acceso provisto por el administrador de tu institución.",
+                  "description": "Estás a punto de unirte al espacio educativo de tu institución. Para ingresar a betterAI debes validar el código de acceso provisto por el administrador de tu institución.",
                   "form": {
                     "legend": {
                       "title": "¿No tienes tu código?",
@@ -209,7 +209,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "welcome": {
                 "user": {
                   "hello": "¡Hola {username}!",
-                  "description": "Bienvenido a RVD.AI Rivadavia"
+                  "description": "Bienvenido a betterAI"
                 }
               },
               "processed": {
@@ -223,7 +223,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "back": "Volver",
             "welcome": {
               "hello": "¡Hola {username}!",
-              "description": "Bienvenido/a a RVD.AI Rivadavia"
+              "description": "Bienvenido/a a betterAI"
             },
             "actions": {
               "accept": "ACEPTAR",

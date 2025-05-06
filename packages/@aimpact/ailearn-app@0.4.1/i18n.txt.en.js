@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 2955831410,
+        hash: 1685921382,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -151,9 +151,9 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "ownerDescription": "Module owner",
               "action": "Do you want to request credits from the module owner?",
               "detail": {
-                "user": "In RVD.AI, functions that require AI use a credit-based system. Each consumed credit enables interactions with AI.",
-                "org": "In RVD.AI, functions that require AI use a credit-based system. Each consumed credit enables AI interactions and is granted by the institution where the module is being created.",
-                "interactive": "In RVD.AI, functions that require AI use a credit-based system. Each consumed credit enables interactions with AI."
+                "user": "In betterAI, functions that require AI use a credit-based system. Each consumed credit enables interactions with AI.",
+                "org": "In betterAI, functions that require AI use a credit-based system. Each consumed credit enables AI interactions and is granted by the institution where the module is being created.",
+                "interactive": "In betterAI, functions that require AI use a credit-based system. Each consumed credit enables interactions with AI."
               },
               "alerts": {
                 "noCredits": "The assignment could not be processed, please contact the institution's administrator"

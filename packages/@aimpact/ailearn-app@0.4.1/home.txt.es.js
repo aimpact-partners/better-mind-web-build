@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 234772958,
+        hash: 3391885875,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -104,7 +104,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "teacher": {
                 "step0": {
                   "title": "Bienvenido a tu perfil",
-                  "description": "Aquí puedes personalizar tu experiencia en RVD.AI Rivadavia. Podrás  actualizar tu información personal, indicar  tu idioma de preferencia, configurar opciones de accesibilidad y ajustar la velocidad del audio."
+                  "description": "Aquí puedes personalizar tu experiencia en betterAI. Podrás  actualizar tu información personal, indicar  tu idioma de preferencia, configurar opciones de accesibilidad y ajustar la velocidad del audio."
                 },
                 "drafts": {
                   "title": "Módulos en borrador",
@@ -120,7 +120,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
                 },
                 "step3": {
                   "title": "¿Necesitas ayuda?",
-                  "description": "Encuentra toda la información en nuestros tutoriales diseñados para ayudarte a sacar el máximo provecho de RVD.AI. Aprende a crear módulos de aprendizaje, gestionar tus aulas y utilizar todas las herramientas que ofrecemos. ¡Explora nuestros tutoriales y navega la plataforma!"
+                  "description": "Encuentra toda la información en nuestros tutoriales diseñados para ayudarte a sacar el máximo provecho de betterAI. Aprende a crear módulos de aprendizaje, gestionar tus aulas y utilizar todas las herramientas que ofrecemos. ¡Explora nuestros tutoriales y navega la plataforma!"
                 },
                 "modules": {
                   "title": "Mis módulos de aprendizaje",
@@ -134,7 +134,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "student": {
                 "step0": {
                   "title": "Bienvenido a tu perfil",
-                  "description": "Aquí puedes personalizar tu experiencia en RVD.AI Rivadavia. Podrás  actualizar tu información personal, indicar  tu idioma de preferencia, configurar opciones de accesibilidad y ajustar la velocidad del audio."
+                  "description": "Aquí puedes personalizar tu experiencia en betterAI. Podrás  actualizar tu información personal, indicar  tu idioma de preferencia, configurar opciones de accesibilidad y ajustar la velocidad del audio."
                 },
                 "classrooms": {
                   "title": "Aulas",

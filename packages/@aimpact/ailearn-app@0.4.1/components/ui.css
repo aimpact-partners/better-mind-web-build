@@ -26,7 +26,7 @@ input {
 .icon-box-container .activity-type__icon .pui-icon {
   height: 1rem;
   width: 1rem;
-  fill: var(--on-primary);
+  fill: var(--on-assessment);
 }
 .icon-box-container.activity--content-theory {
   background-color: var(--content-theory);
@@ -101,98 +101,98 @@ input {
   background-color: var(--content-theory);
 }
 .activity-type__icon.activity--content-theory svg {
-  fill: var(--on-primary);
+  fill: var(--on-content-theory);
 }
 .activity-type__icon.activity--conversation {
   background-color: var(--conversation);
 }
 .activity-type__icon.activity--conversation svg {
-  fill: var(--on-primary);
+  fill: var(--on-conversation);
 }
 .activity-type__icon.activity--multiple-choice {
   background-color: var(--multiple-choice);
 }
 .activity-type__icon.activity--multiple-choice svg {
-  fill: var(--on-primary);
+  fill: var(--on-multiple-choice);
 }
 .activity-type__icon.activity--spoken {
   background-color: var(--spoken);
 }
 .activity-type__icon.activity--spoken svg {
-  fill: var(--on-primary);
+  fill: var(--on-spoken);
 }
 .activity-type__icon.activity--written {
   background-color: var(--written);
 }
 .activity-type__icon.activity--written svg {
-  fill: var(--on-primary);
+  fill: var(--on-written);
 }
 .activity-type__icon.activity--written-spoken {
   background-color: var(--written-spoken);
 }
 .activity-type__icon.activity--written-spoken svg {
-  fill: var(--on-primary);
+  fill: var(--on-written-spoken);
 }
 .activity-type__icon.activity--character-talk {
   background-color: var(--character-talk);
 }
 .activity-type__icon.activity--character-talk svg {
-  fill: var(--on-primary);
+  fill: var(--on-character-talk);
 }
 .activity-type__icon.activity--debate {
   background-color: var(--debate);
 }
 .activity-type__icon.activity--debate svg {
-  fill: var(--on-primary);
+  fill: var(--on-debate);
 }
 
 .bg.-activity--content-theory {
   background-color: var(--content-theory);
 }
 .bg.-activity--content-theory svg {
-  fill: var(--on-primary);
+  fill: var(--on-content-theory);
 }
 .bg.-activity--conversation {
   background-color: var(--conversation);
 }
 .bg.-activity--conversation svg {
-  fill: var(--on-primary);
+  fill: var(--on-conversation);
 }
 .bg.-activity--multiple-choice {
   background-color: var(--multiple-choice);
 }
 .bg.-activity--multiple-choice svg {
-  fill: var(--on-primary);
+  fill: var(--on-multiple-choice);
 }
 .bg.-activity--spoken {
   background-color: var(--spoken);
 }
 .bg.-activity--spoken svg {
-  fill: var(--on-primary);
+  fill: var(--on-spoken);
 }
 .bg.-activity--written {
   background-color: var(--written);
 }
 .bg.-activity--written svg {
-  fill: var(--on-primary);
+  fill: var(--on-written);
 }
 .bg.-activity--written-spoken {
   background-color: var(--written-spoken);
 }
 .bg.-activity--written-spoken svg {
-  fill: var(--on-primary);
+  fill: var(--on-written-spoken);
 }
 .bg.-activity--character-talk {
   background-color: var(--character-talk);
 }
 .bg.-activity--character-talk svg {
-  fill: var(--on-primary);
+  fill: var(--on-character-talk);
 }
 .bg.-activity--debate {
   background-color: var(--debate);
 }
 .bg.-activity--debate svg {
-  fill: var(--on-primary);
+  fill: var(--on-debate);
 }
 .pui-image.entity-image-cover {
   width: 100%;

@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 1065314388,
+        hash: 2964594009,
         creator: function (require, exports) {
           exports.txt = {
             "breadcrumb": {
@@ -51,7 +51,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "actions": {
                 "save": "Fortfahren"
               },
-              "text1": "Um Ihre Institution in RVD.AI zu registrieren, füllen Sie bitte das folgende Formular aus.",
+              "text1": "Um Ihre Institution in betterAI zu registrieren, füllen Sie bitte das folgende Formular aus.",
               "text2": "Bitte beachten Sie, dass nur Benutzer mit von der Institution erteilten Berechtigungen diese Registrierung abschließen können. Wir werden Sie kontaktieren, um die bereitgestellten Informationen zu überprüfen.",
               "text3": "Nach Genehmigung des Antrags werden der Institution Guthaben zugewiesen, um die Funktionen zu nutzen, die künstliche Intelligenz erfordern. Bis dahin sind die Funktionen begrenzt und Aktionen, die künstliche Intelligenz erfordern, können nicht durchgeführt werden."
             }

@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 2046961933,
+        hash: 2500020728,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -150,9 +150,9 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "ownerDescription": "Propietario del módulo de aprendizaje",
               "action": "¿Deseas solicitar créditos al propietario del módulo?",
               "detail": {
-                "user": "En RVD.AI las funciones que requieren usar IA utilizan un sistema de créditos. Cada crédito consumido equivale a habilitar interacciones con la IA.",
-                "org": "En RVD.AI las funciones que requieren IA utilizan un sistema de créditos. Cada crédito consumido equivale a habilitar interacciones con la IA, y este es otorgado por la institución en la que se está creando el módulo.",
-                "interactive": "En RVD.AI las funciones que requieren usar IA utilizan un sistema de créditos. Cada crédito consumido equivale a habilitar interacciones con la IA."
+                "user": "En betterAI las funciones que requieren usar IA utilizan un sistema de créditos. Cada crédito consumido equivale a habilitar interacciones con la IA.",
+                "org": "En betterAI las funciones que requieren IA utilizan un sistema de créditos. Cada crédito consumido equivale a habilitar interacciones con la IA, y este es otorgado por la institución en la que se está creando el módulo.",
+                "interactive": "En betterAI las funciones que requieren usar IA utilizan un sistema de créditos. Cada crédito consumido equivale a habilitar interacciones con la IA."
               },
               "alerts": {
                 "noCredits": "La asignación no pudo ser procesada, por favor contacta al administrador de la institución"

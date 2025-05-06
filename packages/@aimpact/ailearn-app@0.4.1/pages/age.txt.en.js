@@ -29,19 +29,19 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 831926215,
+        hash: 4193405262,
         creator: function (require, exports) {
           exports.txt = {
             "ERROR": "The request could not be processed. Please try again later.",
-            "checkbox": "<strong>I accept</strong> the terms and conditions of RVD.AI.",
+            "checkbox": "<strong>I accept</strong> the terms and conditions of betterAI.",
             "button": "Accept",
-            "claim": "RVD.AI uses artificial intelligence to provide you with study guides. Remember to verify the answers obtained.",
+            "claim": "betterAI uses artificial intelligence to provide you with study guides. Remember to verify the answers obtained.",
             "actions": {
               "save": "Submit"
             },
             "terms": {
               "title": "Terms and conditions",
-              "claim": "<strong>RVD.AI</strong> relies on artificial intelligence to assist in learning. It is necessary to supervise and verify the answers that AI provides to students.",
+              "claim": "<strong>betterAI</strong> relies on artificial intelligence to assist in learning. It is necessary to supervise and verify the answers that AI provides to students.",
               "conclusion": "To continue, you must accept the",
               "postConclusion": "and",
               "links": {

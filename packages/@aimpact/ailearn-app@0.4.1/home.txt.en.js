@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 525133978,
+        hash: 3173247609,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -104,7 +104,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "teacher": {
                 "step0": {
                   "title": "Welcome to your profile",
-                  "description": "Here you can customize your experience in RVD.AI Rivadavia. You can update your personal information, indicate your preferred language, configure accessibility options, and adjust the audio speed."
+                  "description": "Here you can customize your experience in betterAI. You can update your personal information, indicate your preferred language, configure accessibility options, and adjust the audio speed."
                 },
                 "community": {
                   "title": "Community",
@@ -120,7 +120,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
                 },
                 "step3": {
                   "title": "Need Help?",
-                  "description": "Find all the information in our tutorials designed to help you get the most out of RVD.AI. Learn how to create learning modules, manage your classrooms, and use all the tools we offer. Explore our tutorials and navigate the platform!"
+                  "description": "Find all the information in our tutorials designed to help you get the most out of betterAI. Learn how to create learning modules, manage your classrooms, and use all the tools we offer. Explore our tutorials and navigate the platform!"
                 },
                 "modules": {
                   "title": "My Learning Modules",
@@ -134,7 +134,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "student": {
                 "step0": {
                   "title": "Welcome to your profile",
-                  "description": "Here you can customize your experience in RVD.AI Rivadavia. You can update your personal information, indicate your preferred language, configure accessibility options, and adjust the audio speed."
+                  "description": "Here you can customize your experience in betterAI. You can update your personal information, indicate your preferred language, configure accessibility options, and adjust the audio speed."
                 },
                 "classrooms": {
                   "title": "Classrooms",

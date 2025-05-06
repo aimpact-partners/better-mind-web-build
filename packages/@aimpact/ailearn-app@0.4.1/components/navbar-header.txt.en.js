@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 984749962,
+        hash: 571175258,
         creator: function (require, exports) {
           exports.txt = {
             "menu": {
@@ -54,7 +54,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "newVersion": {
               "xs": "Meet the new features of RVD.ai",
               "desktop": {
-                "title": "You are browsing a new version of RVD.AI Rivadavia.",
+                "title": "You are browsing a new version of betterAI.",
                 "label": "Know all the improvements we made within our platform by following ",
                 "link": "this link"
               }

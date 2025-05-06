@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 1285895014,
+        hash: 3810814553,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -103,7 +103,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "teacher": {
                 "step0": {
                   "title": "Willkommen in Ihrem Profil",
-                  "description": "Hier können Sie Ihre Erfahrung in RVD.AI Rivadavia anpassen. Sie können Ihre persönlichen Informationen aktualisieren, Ihre bevorzugte Sprache angeben, Barrierefreiheitsoptionen konfigurieren und die Audiogeschwindigkeit anpassen."
+                  "description": "Hier können Sie Ihre Erfahrung in betterAI anpassen. Sie können Ihre persönlichen Informationen aktualisieren, Ihre bevorzugte Sprache angeben, Barrierefreiheitsoptionen konfigurieren und die Audiogeschwindigkeit anpassen."
                 },
                 "community": {
                   "title": "Gemeinschaft",
@@ -119,7 +119,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
                 },
                 "step3": {
                   "title": "Brauchen Sie Hilfe?",
-                  "description": "Finden Sie alle Informationen in unseren Tutorials, die entwickelt wurden, um Ihnen zu helfen, das Beste aus RVD.AI herauszuholen. Lernen Sie, wie Sie Lernmodule erstellen, Ihre Klassenräume verwalten und alle von uns angebotenen Tools nutzen können. Erkunden Sie unsere Tutorials und navigieren Sie durch die Plattform!"
+                  "description": "Finden Sie alle Informationen in unseren Tutorials, die entwickelt wurden, um Ihnen zu helfen, das Beste aus betterAI herauszuholen. Lernen Sie, wie Sie Lernmodule erstellen, Ihre Klassenräume verwalten und alle von uns angebotenen Tools nutzen können. Erkunden Sie unsere Tutorials und navigieren Sie durch die Plattform!"
                 },
                 "modules": {
                   "title": "Meine Lernmodule",
@@ -133,7 +133,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "student": {
                 "step0": {
                   "title": "Willkommen in Ihrem Profil",
-                  "description": "Hier können Sie Ihre Erfahrung in RVD.AI Rivadavia anpassen. Sie können Ihre persönlichen Informationen aktualisieren, Ihre bevorzugte Sprache angeben, Barrierefreiheitsoptionen konfigurieren und die Audiogeschwindigkeit anpassen."
+                  "description": "Hier können Sie Ihre Erfahrung in betterAI anpassen. Sie können Ihre persönlichen Informationen aktualisieren, Ihre bevorzugte Sprache angeben, Barrierefreiheitsoptionen konfigurieren und die Audiogeschwindigkeit anpassen."
                 },
                 "classrooms": {
                   "title": "Klassenräume",

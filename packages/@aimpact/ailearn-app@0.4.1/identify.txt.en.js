@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 2619103975,
+        hash: 539264676,
         creator: function (require, exports) {
           exports.txt = {
             "errors": {
@@ -82,7 +82,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               },
               "teacherApproved": {
                 "title": "Congratulations! Your request has been approved",
-                "description": "You are now part of the {organization} institution, Start using RVD.AI."
+                "description": "You are now part of the {organization} institution, Start using betterAI."
               },
               "student": {
                 "title": "Your request to join the classroom is under review.",
@@ -90,7 +90,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               },
               "studentApproved": {
                 "title": "Congratulations! Your request has been approved",
-                "description": "You are now part of the classroom, Start using RVD.AI."
+                "description": "You are now part of the classroom, Start using betterAI."
               },
               "institution": {
                 "title": "Congratulations! Your institution can now start its trial period",
@@ -118,11 +118,11 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "student": {
               "selection": {
                 "title": "You are about to start the path to educational transformation",
-                "description": "To start your learning experience with RVD.AI Rivadavia, you can ask the teacher for the access code to the classroom and enter it to continue, or request the access link to an activity. Once you have this information, you can enter the learning module and start exploring the content designed especially for you."
+                "description": "To start your learning experience with betterAI, you can ask the teacher for the access code to the classroom and enter it to continue, or request the access link to an activity. Once you have this information, you can enter the learning module and start exploring the content designed especially for you."
               },
               "form": {
                 "title": "Start your educational transformation",
-                "description": "You are about to join your institution's educational space. To enter RVD.AI Rivadavia you must validate the access code provided by your institution's administrator.",
+                "description": "You are about to join your institution's educational space. To enter betterAI you must validate the access code provided by your institution's administrator.",
                 "form": {
                   "legend": {
                     "title": "Don't have your code?",
@@ -174,22 +174,22 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "institution": {
                 "intro": {
                   "hello": "Hello {username}",
-                  "title": "Does the institution where you work use RVD.AI?",
-                  "description": "My institution already works with <strong>RVD.AI</strong> Rivadavia and I want to join its educational space.",
+                  "title": "Does the institution where you work use betterAI?",
+                  "description": "My institution already works with <strong>betterAI</strong> Rivadavia and I want to join its educational space.",
                   "options": {
                     "yes": {
                       "label": "Yes",
-                      "description": "My institution already works with <strong>RVD.AI Rivadavia</strong> and I want to join its educational space."
+                      "description": "My institution already works with <strong>betterAI</strong> and I want to join its educational space."
                     },
                     "no": {
                       "label": "No",
-                      "description": "My institution does not work with <strong>RVD.AI Rivadavia</strong>. I want to join the tool as an independent teacher."
+                      "description": "My institution does not work with <strong>betterAI</strong>. I want to join the tool as an independent teacher."
                     }
                   }
                 },
                 "form": {
                   "title": "Start the educational transformation",
-                  "description": "You are about to join your institution's educational space. To access RVD.AI Rivadavia, you must validate the access code provided by your institution's administrator.",
+                  "description": "You are about to join your institution's educational space. To access betterAI, you must validate the access code provided by your institution's administrator.",
                   "form": {
                     "legend": {
                       "title": "Don't you have your code?",
@@ -209,7 +209,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "welcome": {
                 "user": {
                   "hello": "Hello {username}!",
-                  "description": "Welcome to RVD.AI Rivadavia"
+                  "description": "Welcome to betterAI"
                 }
               },
               "processed": {
@@ -223,7 +223,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "back": "Back",
             "welcome": {
               "hello": "Hello {username}!",
-              "description": "Welcome to RVD.AI Rivadavia"
+              "description": "Welcome to betterAI"
             },
             "actions": {
               "accept": "ACCEPT",

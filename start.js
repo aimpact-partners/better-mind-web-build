@@ -758,7 +758,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@beyond-js/kernel@0.1.12/tr
         *************************/
 
         ims.set('./startup', {
-          hash: 2129065405,
+          hash: 4108260131,
           creator: function (require, exports) {
             "use strict";
 

@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 4165427006,
+        hash: 2507023189,
         creator: function (require, exports) {
           exports.txt = {
             "errors": {
@@ -82,7 +82,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               },
               "teacherApproved": {
                 "title": "Herzlichen Glückwunsch! Ihre Anfrage wurde genehmigt",
-                "description": "Sie sind jetzt Teil der Institution {organization}. Beginnen Sie mit der Nutzung von RVD.AI."
+                "description": "Sie sind jetzt Teil der Institution {organization}. Beginnen Sie mit der Nutzung von betterAI."
               },
               "student": {
                 "title": "Ihre Anfrage zum Beitritt zum Klassenraum wird geprüft.",
@@ -90,7 +90,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               },
               "studentApproved": {
                 "title": "Herzlichen Glückwunsch! Ihre Anfrage wurde genehmigt",
-                "description": "Sie sind jetzt Teil des Klassenraums. Beginnen Sie mit der Nutzung von RVD.AI."
+                "description": "Sie sind jetzt Teil des Klassenraums. Beginnen Sie mit der Nutzung von betterAI."
               },
               "institution": {
                 "title": "Herzlichen Glückwunsch! Ihre Institution kann jetzt ihre Testphase starten",
@@ -118,11 +118,11 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "student": {
               "selection": {
                 "title": "Sie sind dabei, den Weg zur Bildungstransformation zu beginnen",
-                "description": "Um Ihre Lernerfahrung mit RVD.AI Rivadavia zu beginnen, können Sie den Lehrer nach dem Zugangscode für den Klassenraum fragen und diesen eingeben, um fortzufahren, oder den Zugangslink zu einer Aktivität anfordern. Sobald Sie diese Informationen haben, können Sie das Lernmodul betreten und mit der Erkundung der speziell für Sie entwickelten Inhalte beginnen."
+                "description": "Um Ihre Lernerfahrung mit betterAI zu beginnen, können Sie den Lehrer nach dem Zugangscode für den Klassenraum fragen und diesen eingeben, um fortzufahren, oder den Zugangslink zu einer Aktivität anfordern. Sobald Sie diese Informationen haben, können Sie das Lernmodul betreten und mit der Erkundung der speziell für Sie entwickelten Inhalte beginnen."
               },
               "form": {
                 "title": "Beginnen Sie Ihre Bildungstransformation",
-                "description": "Sie sind dabei, dem Bildungsraum Ihrer Institution beizutreten. Um RVD.AI Rivadavia zu betreten, müssen Sie den vom Administrator Ihrer Institution bereitgestellten Zugangscode validieren.",
+                "description": "Sie sind dabei, dem Bildungsraum Ihrer Institution beizutreten. Um betterAI zu betreten, müssen Sie den vom Administrator Ihrer Institution bereitgestellten Zugangscode validieren.",
                 "form": {
                   "legend": {
                     "title": "Sie haben keinen Code?",
@@ -174,22 +174,22 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "institution": {
                 "intro": {
                   "hello": "Hallo {username}",
-                  "title": "Verwendet die Institution, in der Sie arbeiten, RVD.AI?",
-                  "description": "Meine Institution arbeitet bereits mit <strong>RVD.AI</strong> Rivadavia und ich möchte ihrem Bildungsraum beitreten.",
+                  "title": "Verwendet die Institution, in der Sie arbeiten, betterAI?",
+                  "description": "Meine Institution arbeitet bereits mit <strong>betterAI</strong> Rivadavia und ich möchte ihrem Bildungsraum beitreten.",
                   "options": {
                     "yes": {
                       "label": "Ja",
-                      "description": "Meine Institution arbeitet bereits mit <strong>RVD.AI Rivadavia</strong> und ich möchte ihrem Bildungsraum beitreten."
+                      "description": "Meine Institution arbeitet bereits mit <strong>betterAI</strong> und ich möchte ihrem Bildungsraum beitreten."
                     },
                     "no": {
                       "label": "Nein",
-                      "description": "Meine Institution arbeitet nicht mit <strong>RVD.AI Rivadavia</strong>. Ich möchte dem Tool als unabhängiger Lehrer beitreten."
+                      "description": "Meine Institution arbeitet nicht mit <strong>betterAI</strong>. Ich möchte dem Tool als unabhängiger Lehrer beitreten."
                     }
                   }
                 },
                 "form": {
                   "title": "Beginnen Sie die Bildungstransformation",
-                  "description": "Sie sind dabei, dem Bildungsraum Ihrer Institution beizutreten. Um auf RVD.AI Rivadavia zuzugreifen, müssen Sie den vom Administrator Ihrer Institution bereitgestellten Zugangscode validieren.",
+                  "description": "Sie sind dabei, dem Bildungsraum Ihrer Institution beizutreten. Um auf betterAI zuzugreifen, müssen Sie den vom Administrator Ihrer Institution bereitgestellten Zugangscode validieren.",
                   "form": {
                     "legend": {
                       "title": "Sie haben Ihren Code nicht?",
@@ -209,7 +209,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "welcome": {
                 "user": {
                   "hello": "Hallo {username}!",
-                  "description": "Willkommen bei RVD.AI Rivadavia"
+                  "description": "Willkommen bei betterAI"
                 }
               },
               "processed": {
@@ -223,7 +223,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
             "back": "Zurück",
             "welcome": {
               "hello": "Hallo {username}!",
-              "description": "Willkommen bei RVD.AI Rivadavia"
+              "description": "Willkommen bei betterAI"
             },
             "actions": {
               "accept": "AKZEPTIEREN",

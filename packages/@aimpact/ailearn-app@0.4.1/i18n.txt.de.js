@@ -29,7 +29,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
       INTERNAL MODULE: ./txt
       *********************/
       ims.set('./txt', {
-        hash: 355184491,
+        hash: 877755831,
         creator: function (require, exports) {
           exports.txt = {
             "actions": {
@@ -151,9 +151,9 @@ System.register(["@beyond-js/kernel@0.1.12/bundle"], function (_export, _context
               "ownerDescription": "Modulinhaber",
               "action": "Möchten Sie Guthaben vom Modulinhaber anfordern?",
               "detail": {
-                "user": "In RVD.AI verwenden Funktionen, die KI benötigen, ein guthabenbasiertes System. Jedes verbrauchte Guthaben ermöglicht Interaktionen mit KI.",
-                "org": "In RVD.AI verwenden Funktionen, die KI benötigen, ein guthabenbasiertes System. Jedes verbrauchte Guthaben ermöglicht KI-Interaktionen und wird von der Institution gewährt, in der das Modul erstellt wird.",
-                "interactive": "In RVD.AI verwenden Funktionen, die KI benötigen, ein guthabenbasiertes System. Jedes verbrauchte Guthaben ermöglicht Interaktionen mit KI."
+                "user": "In betterAI verwenden Funktionen, die KI benötigen, ein guthabenbasiertes System. Jedes verbrauchte Guthaben ermöglicht Interaktionen mit KI.",
+                "org": "In betterAI verwenden Funktionen, die KI benötigen, ein guthabenbasiertes System. Jedes verbrauchte Guthaben ermöglicht KI-Interaktionen und wird von der Institution gewährt, in der das Modul erstellt wird.",
+                "interactive": "In betterAI verwenden Funktionen, die KI benötigen, ein guthabenbasiertes System. Jedes verbrauchte Guthaben ermöglicht Interaktionen mit KI."
               },
               "alerts": {
                 "noCredits": "Die Zuweisung konnte nicht verarbeitet werden, bitte kontaktieren Sie den Administrator der Institution"
