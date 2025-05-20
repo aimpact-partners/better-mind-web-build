@@ -33,7 +33,7 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@aimpact/agents-api@0.4.1/c
       INTERNAL MODULE: ./index
       ***********************/
       ims.set('./index', {
-        hash: 3592239530,
+        hash: 3800007927,
         creator: function (require, exports) {
           "use strict";
 
@@ -46,23 +46,23 @@ System.register(["@beyond-js/kernel@0.1.12/bundle", "@aimpact/agents-api@0.4.1/c
           const environments = {
             local: {
               rvd: 'wss://dev.agents.api.aimpact.partners',
-              'better-mind': 'ws://agents-api-883367315651.europe-west10.run.app'
+              'better-mind': 'wss://agents-api-883367315651.europe-west10.run.app'
             },
             development: {
               rvd: 'wss://dev.agents.api.aimpact.partners',
-              'better-mind': 'ws://agents-api-883367315651.europe-west10.run.app'
+              'better-mind': 'wss://agents-api-883367315651.europe-west10.run.app'
             },
             testing: {
               rvd: 'wss://test.agents.api.aimpact.partners',
-              'better-mind': 'ws://agents-api-883367315651.europe-west10.run.app'
+              'better-mind': 'wss://agents-api-883367315651.europe-west10.run.app'
             },
             quality: {
               rvd: 'wss://beta.agents.api.aimpact.partners',
-              'better-mind': 'ws://agents-api-883367315651.europe-west10.run.app'
+              'better-mind': 'wss://agents-api-883367315651.europe-west10.run.app'
             },
             production: {
               rvd: 'wss://agents.api.aimpact.partners',
-              'better-mind': 'ws://agents-api-883367315651.europe-west10.run.app'
+              'better-mind': 'wss://agents-api-883367315651.europe-west10.run.app'
             }
           };
           /*bundle*/
