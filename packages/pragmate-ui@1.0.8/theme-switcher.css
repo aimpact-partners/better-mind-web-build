@@ -1,0 +1,1 @@
+.theme{display:flex;flex-direction:row;width:100px}.theme .container-theme{display:flex;gap:10px;align-items:center;width:100%;flex-direction:row}.theme .beyond-element-switch label.switch input:checked+.slider:before{background-color:var(--primary)}
