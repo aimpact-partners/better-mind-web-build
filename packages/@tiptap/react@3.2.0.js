@@ -1,7 +1,7 @@
-System.register(["react@18.3.1","scheduler@0.23.2","react-dom@18.3.1","use-sync-external-store@1.5.0/shim","react@18.3.1/jsx-runtime","orderedmap@2.1.1","prosemirror-model@1.25.3","prosemirror-transform@1.10.4","prosemirror-state@1.4.3","@tiptap/pm@3.2.0/state","prosemirror-view@1.40.1","@tiptap/pm@3.2.0/view","w3c-keyname@2.2.8","prosemirror-keymap@1.2.3","@tiptap/pm@3.2.0/keymap","@tiptap/pm@3.2.0/transform","@tiptap/pm@3.2.0/model","prosemirror-commands@1.7.1","@tiptap/pm@3.2.0/commands","prosemirror-schema-list@1.5.1","@tiptap/pm@3.2.0/schema-list","@tiptap/core@3.2.0","use-sync-external-store@1.5.0/shim/with-selector"], (_exports, _context) => {
+System.register(["react@18.3.1","scheduler@0.23.2","react-dom@18.3.1","use-sync-external-store@1.5.0/shim","react@18.3.1/jsx-runtime","orderedmap@2.1.1","prosemirror-model@1.25.3","prosemirror-transform@1.10.4","@tiptap/pm@3.12.0/transform","prosemirror-state@1.4.3","prosemirror-commands@1.7.1","@tiptap/pm@3.12.0/commands","@tiptap/pm@3.12.0/state","@tiptap/pm@3.12.0/model","prosemirror-schema-list@1.5.1","@tiptap/pm@3.12.0/schema-list","prosemirror-view@1.40.1","@tiptap/pm@3.12.0/view","w3c-keyname@2.2.8","prosemirror-keymap@1.2.3","@tiptap/pm@3.12.0/keymap","@tiptap/core@3.12.0","use-sync-external-store@1.5.0/shim/with-selector"], (_exports, _context) => {
 
 const bimport = specifier => {
-	const dependencies = new Map([["react","18.3.1"],["scheduler","0.23.2"],["react-dom","18.3.1"],["use-sync-external-store","1.5.0"],["orderedmap","2.1.1"],["prosemirror-model","1.25.3"],["prosemirror-transform","1.10.4"],["prosemirror-state","1.4.3"],["@tiptap/pm","3.2.0"],["prosemirror-view","1.40.1"],["w3c-keyname","2.2.8"],["prosemirror-keymap","1.2.3"],["prosemirror-commands","1.7.1"],["prosemirror-schema-list","1.5.1"],["@tiptap/core","3.2.0"],["fast-deep-equal","3.1.3"],["@tiptap/react","3.2.0"]]);
+	const dependencies = new Map([["react","18.3.1"],["scheduler","0.23.2"],["react-dom","18.3.1"],["use-sync-external-store","1.5.0"],["orderedmap","2.1.1"],["prosemirror-model","1.25.3"],["prosemirror-transform","1.10.4"],["@tiptap/pm","3.12.0"],["prosemirror-state","1.4.3"],["prosemirror-commands","1.7.1"],["prosemirror-schema-list","1.5.1"],["prosemirror-view","1.40.1"],["w3c-keyname","2.2.8"],["prosemirror-keymap","1.2.3"],["@tiptap/core","3.12.0"],["fast-deep-equal","3.1.3"],["@tiptap/react","3.2.0"]]);
 	return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
 };
 
@@ -9,7 +9,7 @@ const bimport = specifier => {
 var dependencies = new Map();
 var require = dependency => dependencies.get(dependency);
 return {
-setters: [dep => dependencies.set('react@18.3.1', dep), dep => dependencies.set('scheduler@0.23.2', dep), dep => dependencies.set('react-dom@18.3.1', dep), dep => dependencies.set('use-sync-external-store@1.5.0/shim', dep), dep => dependencies.set('react@18.3.1/jsx-runtime', dep), dep => dependencies.set('orderedmap@2.1.1', dep), dep => dependencies.set('prosemirror-model@1.25.3', dep), dep => dependencies.set('prosemirror-transform@1.10.4', dep), dep => dependencies.set('prosemirror-state@1.4.3', dep), dep => dependencies.set('@tiptap/pm@3.2.0/state', dep), dep => dependencies.set('prosemirror-view@1.40.1', dep), dep => dependencies.set('@tiptap/pm@3.2.0/view', dep), dep => dependencies.set('w3c-keyname@2.2.8', dep), dep => dependencies.set('prosemirror-keymap@1.2.3', dep), dep => dependencies.set('@tiptap/pm@3.2.0/keymap', dep), dep => dependencies.set('@tiptap/pm@3.2.0/transform', dep), dep => dependencies.set('@tiptap/pm@3.2.0/model', dep), dep => dependencies.set('prosemirror-commands@1.7.1', dep), dep => dependencies.set('@tiptap/pm@3.2.0/commands', dep), dep => dependencies.set('prosemirror-schema-list@1.5.1', dep), dep => dependencies.set('@tiptap/pm@3.2.0/schema-list', dep), dep => dependencies.set('@tiptap/core@3.2.0', dep), dep => dependencies.set('use-sync-external-store@1.5.0/shim/with-selector', dep)],
+setters: [dep => dependencies.set('react@18.3.1', dep), dep => dependencies.set('scheduler@0.23.2', dep), dep => dependencies.set('react-dom@18.3.1', dep), dep => dependencies.set('use-sync-external-store@1.5.0/shim', dep), dep => dependencies.set('react@18.3.1/jsx-runtime', dep), dep => dependencies.set('orderedmap@2.1.1', dep), dep => dependencies.set('prosemirror-model@1.25.3', dep), dep => dependencies.set('prosemirror-transform@1.10.4', dep), dep => dependencies.set('@tiptap/pm@3.12.0/transform', dep), dep => dependencies.set('prosemirror-state@1.4.3', dep), dep => dependencies.set('prosemirror-commands@1.7.1', dep), dep => dependencies.set('@tiptap/pm@3.12.0/commands', dep), dep => dependencies.set('@tiptap/pm@3.12.0/state', dep), dep => dependencies.set('@tiptap/pm@3.12.0/model', dep), dep => dependencies.set('prosemirror-schema-list@1.5.1', dep), dep => dependencies.set('@tiptap/pm@3.12.0/schema-list', dep), dep => dependencies.set('prosemirror-view@1.40.1', dep), dep => dependencies.set('@tiptap/pm@3.12.0/view', dep), dep => dependencies.set('w3c-keyname@2.2.8', dep), dep => dependencies.set('prosemirror-keymap@1.2.3', dep), dep => dependencies.set('@tiptap/pm@3.12.0/keymap', dep), dep => dependencies.set('@tiptap/core@3.12.0', dep), dep => dependencies.set('use-sync-external-store@1.5.0/shim/with-selector', dep)],
 execute: function() {
 // Prevent esbuild from considering the context to be amd
 const define = void 0;
@@ -166,7 +166,7 @@ var import_react2 = __toESM(require("react@18.3.1"), 0);
 var import_react_dom = __toESM(require("react-dom@18.3.1"), 0);
 var import_shim = require("use-sync-external-store@1.5.0/shim");
 var import_jsx_runtime = require("react@18.3.1/jsx-runtime");
-var import_core = require("@tiptap/core@3.2.0");
+var import_core = require("@tiptap/core@3.12.0");
 var import_react3 = require("react@18.3.1");
 var import_shim2 = require("use-sync-external-store@1.5.0/shim");
 var import_react4 = __toESM(require_react(), 1);
@@ -177,16 +177,16 @@ var import_react6 = require("react@18.3.1");
 var import_jsx_runtime3 = require("react@18.3.1/jsx-runtime");
 var import_react7 = __toESM(require("react@18.3.1"), 0);
 var import_jsx_runtime4 = require("react@18.3.1/jsx-runtime");
-var import_core2 = require("@tiptap/core@3.2.0");
+var import_core2 = require("@tiptap/core@3.12.0");
 var import_react8 = __toESM(require("react@18.3.1"), 0);
 var import_react9 = require("react@18.3.1");
 var import_react_dom2 = require("react-dom@18.3.1");
 var import_jsx_runtime5 = require("react@18.3.1/jsx-runtime");
 var import_jsx_runtime6 = require("react@18.3.1/jsx-runtime");
-var import_core3 = require("@tiptap/core@3.2.0");
+var import_core3 = require("@tiptap/core@3.12.0");
 var import_react10 = require("react@18.3.1");
 var import_jsx_runtime7 = require("react@18.3.1/jsx-runtime");
-__reExport(dist_exports, require("@tiptap/core@3.2.0"));
+__reExport(dist_exports, require("@tiptap/core@3.12.0"));
 var mergeRefs = (...refs) => {
   return node => {
     refs.forEach(ref => {

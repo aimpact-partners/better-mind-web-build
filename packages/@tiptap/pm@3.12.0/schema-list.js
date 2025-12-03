@@ -1,7 +1,7 @@
 System.register(["orderedmap@2.1.1","prosemirror-model@1.25.3","prosemirror-transform@1.10.4","prosemirror-state@1.4.3","prosemirror-schema-list@1.5.1"], (_exports, _context) => {
 
 const bimport = specifier => {
-	const dependencies = new Map([["orderedmap","2.1.1"],["prosemirror-model","1.25.3"],["prosemirror-transform","1.10.4"],["prosemirror-state","1.4.3"],["prosemirror-schema-list","1.5.1"],["@tiptap/pm","3.2.0"]]);
+	const dependencies = new Map([["orderedmap","2.1.1"],["prosemirror-model","1.25.3"],["prosemirror-transform","1.10.4"],["prosemirror-state","1.4.3"],["prosemirror-schema-list","1.5.1"],["@tiptap/pm","3.12.0"]]);
 	return globalThis.bimport(globalThis.bimport.resolve(specifier, dependencies));
 };
 
@@ -34,20 +34,20 @@ var __toCommonJS = mod => __copyProps(__defProp({}, "__esModule", {
   value: true
 }), mod);
 
-// .beyond/uimport/temp/@tiptap/pm/schema-list.3.2.0.js
-var schema_list_3_2_0_exports = {};
-module.exports = __toCommonJS(schema_list_3_2_0_exports);
+// .beyond/uimport/temp/@tiptap/pm/schema-list.3.12.0.js
+var schema_list_3_12_0_exports = {};
+module.exports = __toCommonJS(schema_list_3_12_0_exports);
 
 // node_modules/@tiptap/pm/dist/schema-list/index.js
 var schema_list_exports = {};
 __reExport(schema_list_exports, require("prosemirror-schema-list@1.5.1"));
 
-// .beyond/uimport/temp/@tiptap/pm/schema-list.3.2.0.js
-__reExport(schema_list_3_2_0_exports, schema_list_exports, module.exports);
+// .beyond/uimport/temp/@tiptap/pm/schema-list.3.12.0.js
+__reExport(schema_list_3_12_0_exports, schema_list_exports, module.exports);
 };
 
 code(module, require);
 _exports(module.exports);
 }}});
 
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy5iZXlvbmQvdWltcG9ydC90ZW1wL0B0aXB0YXAvcG0vc2NoZW1hLWxpc3QuMy4yLjAuanMiLCIuLi9ub2RlX21vZHVsZXMvQHRpcHRhcC9wbS9kaXN0L3NjaGVtYS1saXN0L2luZGV4LmpzIl0sIm5hbWVzIjpbInNjaGVtYV9saXN0XzNfMl8wX2V4cG9ydHMiLCJtb2R1bGUiLCJleHBvcnRzIiwiX190b0NvbW1vbkpTIiwic2NoZW1hX2xpc3RfZXhwb3J0cyIsIl9fcmVFeHBvcnQiLCJyZXF1aXJlIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsSUFBQUEseUJBQUE7QUFBQUMsTUFBQSxDQUFBQyxPQUFBLEdBQUFDLFlBQUEsQ0FBQUgseUJBQUE7OztBQ0FBLElBQUFJLG1CQUFBO0FBQ0FDLFVBQUEsQ0FBQUQsbUJBQUEsRUFBY0UsT0FBQTs7O0FERGRELFVBQUEsQ0FBQUwseUJBQUEsRUFBY0ksbUJBQUEsRUFBZEgsTUFBQSxDQUFBQyxPQUFBIiwiZmlsZSI6IiIsInNvdXJjZVJvb3QiOiIvYWkvYWlsZWFybi9jbGllbnQvYXBwcy9iZXR0ZXItbWluZC9vdXQifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy5iZXlvbmQvdWltcG9ydC90ZW1wL0B0aXB0YXAvcG0vc2NoZW1hLWxpc3QuMy4xMi4wLmpzIiwiLi4vbm9kZV9tb2R1bGVzL0B0aXB0YXAvcG0vZGlzdC9zY2hlbWEtbGlzdC9pbmRleC5qcyJdLCJuYW1lcyI6WyJzY2hlbWFfbGlzdF8zXzEyXzBfZXhwb3J0cyIsIm1vZHVsZSIsImV4cG9ydHMiLCJfX3RvQ29tbW9uSlMiLCJzY2hlbWFfbGlzdF9leHBvcnRzIiwiX19yZUV4cG9ydCIsInJlcXVpcmUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxJQUFBQSwwQkFBQTtBQUFBQyxNQUFBLENBQUFDLE9BQUEsR0FBQUMsWUFBQSxDQUFBSCwwQkFBQTs7O0FDQUEsSUFBQUksbUJBQUE7QUFDQUMsVUFBQSxDQUFBRCxtQkFBQSxFQUFjRSxPQUFBOzs7QUREZEQsVUFBQSxDQUFBTCwwQkFBQSxFQUFjSSxtQkFBQSxFQUFkSCxNQUFBLENBQUFDLE9BQUEiLCJmaWxlIjoiIiwic291cmNlUm9vdCI6Ii9haS9haWxlYXJuL2NsaWVudC9hcHBzL2JldHRlci1taW5kL291dCJ9
