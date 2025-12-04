@@ -5,7 +5,7 @@ System.register([], function (e, a) {
 		execute: function () {
 			e('default', {
 				package: '@aimpact/better-mind',
-				version: '0.1.4',
+				version: '0.1.5',
 				languages: { default: 'en', supported: ['en', 'es', 'de'] },
 				environment: 'development',
 				'global.css': true,
